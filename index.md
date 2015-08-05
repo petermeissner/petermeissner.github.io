@@ -1,6 +1,6 @@
 ---
 author: peter meißner
-title: software
+title: peter meißner 
 layout: default
 ---
 
