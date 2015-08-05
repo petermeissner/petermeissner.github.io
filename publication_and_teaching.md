@@ -1,6 +1,7 @@
 ---
 author: peter meissner
 title: publications and teaching
+layout: default
 ---
 
 # Blogs
