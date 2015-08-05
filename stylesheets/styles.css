@@ -1,15 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu|Lobster&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Source+Code+Pro:700);
+
 
  body {
   padding:50px;
-  background: #F8F8F8 ; 
+  background: #F8F8F8 ;
   font-family: 'Ubuntu', sans-serif;
   color:#444;
+  line-height: 1.5;
   font-weight:300;
 }
- 
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lobster', cursive;
+  font-family: 'Source Code Pro', cursive;
   color:#222;
   margin:0 0 20px;
 }
