@@ -1,6 +1,7 @@
 ---
 author: peter meissner
 title: dingsbums
+layout: default
 ---
 
 # title1
