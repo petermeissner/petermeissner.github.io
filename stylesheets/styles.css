@@ -1,17 +1,27 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu|Source+Code+Pro:700);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|PT Sans);
 
 
  body {
   padding:50px;
-  background: #F8F8F8 ;
+  background: #fcfcfa ;
   font-family: 'Ubuntu', sans-serif;
   color:#444;
   line-height: 1.5;
   font-weight:300;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Code Pro', cursive;
+h1 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.08em;
+  color:#222;
+  margin:0 0 20px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.08em;
   color:#222;
   margin:0 0 20px;
 }
