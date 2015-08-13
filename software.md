@@ -9,7 +9,7 @@ A software package for R that provides access to daily page view statistics of W
 
 Find out more by browsing the [README](https://github.com/petermeissner/wikipediatrend) or have a look at the [vignette](https://cran.r-project.org/web/packages/wikipediatrend/vignettes/using-wikipediatrend.html).
 
-``` r 
+``` r
 # install from CRAN
 install.packages("wikipediatrend")
 
@@ -25,6 +25,6 @@ Diffr is like diff for R only that it is not diff. Diffr is a software package f
 Find out more by visiting diffr's Github repository and browsing its [README](https://github.com/petermeissner/diffr).
 
 ```r
-# install from Github
-devtools::install_github("petermeissner/diffr")
+    # install from Github
+    devtools::install_github("petermeissner/diffr")
 ```
