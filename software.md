@@ -1,6 +1,6 @@
 ---
 author: peter meißner
-title: software
+title: Software
 layout: default
 ---
 # wikipediatrend
@@ -22,7 +22,7 @@ devtools::install_github("petermeissner/wikipediatrend")
 
 Diffr is like diff for R only that it is not diff. Diffr is a software package for R providing functions to compare text versions, aligning lines and measure distances between texts.
 
-Find out more by visiting diffr's Github repository and browsing its [README](https://github.com/petermeissner/diffr). 
+Find out more by visiting diffr's Github repository and browsing its [README](https://github.com/petermeissner/diffr).
 
 ```r
 # install from Github

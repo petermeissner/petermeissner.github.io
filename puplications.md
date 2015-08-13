@@ -1,6 +1,6 @@
 ---
 author: peter meissner
-title: publications
+title: Publications
 layout: default
 ---
 
