@@ -32,10 +32,18 @@ var dots = dots.transition()
 
 var dots = dots.transition()
  .duration(1000)
-  .attr("dy", function(d){ return d.h*height/4} )
-  .attr("dx", function(d){ return d.v*width/4} );
+  .attr("dy", function(d){ if(d.v == 1) {return d.h*height/4} else {return 	uniform(0)(1)*height/2} ; } )
+  .attr("dx", function(d){ if(d.v == 1) {return d.v*width/4} else {return 	uniform(0)(1)*width/2} ; } );
 
-
+var dots = dots.transition()
+ .duration(1000)
+  .attr("dy", function(d){ if(d.v == 2) {return d.h*height/4} else {return 	uniform(0)(1)*height/2} ; } )
+  .attr("dx", function(d){ if(d.v == 2) {return d.v*width/4} else {return 	uniform(0)(1)*width/2} ; } );
+  
+  var dots = dots.transition()
+ .duration(1000)
+  .attr("dy", function(d){ if(d.v == 3) {return d.h*height/4} else {return 	uniform(0)(1)*height/2} ; } )
+  .attr("dx", function(d){ if(d.v == 3) {return d.v*width/4} else {return 	uniform(0)(1)*width/2} ; } );
 
 
 
