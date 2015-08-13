@@ -89,7 +89,7 @@ pre {
 /* Syntax highlighting */
 
 pre, code {
-  font-family: 'Inconsolata', sans-serif;
+/*  font-family: 'Inconsolata', sans-serif;*/
   font-size: 1em;
   background-color: #fafafa;
 }
