@@ -9,7 +9,7 @@ A software package for R that provides access to daily page view statistics of W
 
 Find out more by browsing the [README](https://github.com/petermeissner/wikipediatrend) or have a look at the [vignette](https://cran.r-project.org/web/packages/wikipediatrend/vignettes/using-wikipediatrend.html).
 
-```r
+```
 # install from CRAN
 install.packages("wikipediatrend")
 
