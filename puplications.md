@@ -1,10 +1,10 @@
 ---
 author: peter meissner
-title: publications and teaching
+title: publications
 layout: default
 ---
 
-# Blogs
+# Blogging
 
 Meißner (2015): *Using wikipediatrend*. r-datacollection.com [link](http://www.r-datacollection.com/blog/Using-wikipediatrend/)
 
@@ -25,18 +25,3 @@ Bailer, Meißner, Ohmura, Selb (2013): *Seiteneinsteiger im Deutschen Bundestag*
 Sieberer, Meißner, Keh, Müller, (forthcoming): Parliamentary Rule Changes in Europe: A Research Program. *Legislative Studies Quarterly*
 
 Sieberer, Meißner, Keh, Müller, (2014), Konzeptionalisierung und Messung formalen Institutionenwandels - Das Beispiel parlamentarische Regeln. *Zeitschrift für Vergleichende Politikwissenschaft* 8(3), 237-262 [link](http://link.springer.com/article/10.1007/s12286-014-0216-7)
-
-
-# Presentations
-
-@ UseR 2015: *Web scraping with R - A fast track overview.* [link](http://user2015.math.aau.dk/oral_sessions#Networks)
-
-
-# Teaching
-
-@ ECPR WSMT 2015 (European Consortium of Political Science Winter School of Methods and Techniques): *Automated Web Data Collection* [link](http://www.ecpr.eu/events/eventdetails.aspx?EventID=97)
-
-
-# Reviews
-
-@ AJPS 2014 (American Journal of Political Science) [ink](http://ajps.org/)
