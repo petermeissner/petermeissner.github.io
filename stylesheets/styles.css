@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu|PT Sans|Inconsolata:400,700);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic|Ubuntu+Mono:400,700,400italic,700italic|PT+Sans+Caption:400,700&subset=latin,latin-ext);
 
 
  body {
@@ -6,20 +6,20 @@
   font-family: 'Ubuntu', sans-serif;
   color:#444;
   line-height: 1.5;
-  font-weight:300;
+  font-weight:400;
 }
 
 h1 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 600;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
   letter-spacing: -0.08em;
   color:#222;
   margin:0 0 20px;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: 300;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 400;
   letter-spacing: -0.08em;
   color:#222;
   margin:0 0 20px;
@@ -70,11 +70,10 @@ blockquote {
   font-style:italic;
 }
 
-/*
+
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-family: 'Ubuntu Mono', ;
   color:#333;
-  font-size:12px;
 }
 
 pre {
@@ -84,45 +83,21 @@ pre {
   border:1px solid #e5e5e5;
   overflow-x: auto;
 }
-*/
 
-/* Syntax highlighting */
-
-pre, code {
-/*  font-family: 'Inconsolata', sans-serif;*/
-  font-size: 1em;
-  background-color: #fafafa;
-  white-space:pre ; 
-}
-pre {
-  border-color: #ddd;
-}
-code {
-  color: #333;
-  white-space: normal;
+.c1 {
+  color:#999;
 }
 
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
-td.sourceCode { padding-left: 5px; }
+.p  , .o {
+  color:red;
+  font-weight: bold;
+}
 
-/* Class described in https://benjeffrey.com/posts/pandoc-syntax-highlighting-css
-   Colours from https://gist.github.com/robsimmons/1172277 */
+.s{
+  color:green;
+}
 
-code > span.kw { color: #555; font-weight: bold; } /* Keyword */
-code > span.dt { color: #902000; } /* DataType */
-code > span.dv { color: #40a070; } /* DecVal (decimal values) */
-code > span.bn { color: #d14; } /* BaseN */
-code > span.fl { color: #d14; } /* Float */
-code > span.ch { color: #d14; } /* Char */
-code > span.st { color: #d14; } /* String */
-code > span.co { color: #888888; font-style: italic; } /* Comment */
-code > span.ot { color: #007020; } /* OtherToken */
-code > span.al { color: #ff0000; font-weight: bold; } /* AlertToken */
-code > span.fu { color: #900; font-weight: bold; } /* Function calls */
-code > span.er { color: #a61717; background-color: #e3d2d2; } /* ErrorTok */
+
 
 table {
   width:100%;
@@ -283,11 +258,6 @@ footer {
   header ul, header p.view {
     position:static;
   }
-
-  pre, code {
-    word-wrap:normal;
-  }
-}
 
 @media print, screen and (max-width: 480px) {
   body {
