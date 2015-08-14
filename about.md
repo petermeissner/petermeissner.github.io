@@ -4,9 +4,11 @@ title: Welcome
 layout: default
 ---
 
-# Web Scraping With R
 
-Interested in web scraping and web data collection? I will teach a course about web scraping with R at the ECPR Winter School of Methods and Techniques again - 29 February - 3 March 2016 . [Have a look here ...](http://www.ecpr.eu/Events/EventDetails.aspx?EventID=103)
+
+## Web Scraping With R
+
+**Interested in web scraping and web data collection? I will teach a course about web scraping with R at the ECPR Winter School of Methods and Techniques again - 29 February - 3 March 2016 . [Have a look here ...](http://www.ecpr.eu/Events/EventDetails.aspx?EventID=103)**
 
 
 # About Me
@@ -18,19 +20,9 @@ For a living I gather data, make it behave, model it and take care that its secr
 
 
 
-## Picture Me
-
 <div style="text-align:center;">
-<img src="http://pmeissner.com/peter_meissner_ecpr.jpg">
+<img width="200" src="http://pmeissner.com/peter_meissner_ecpr.jpg">
+&nbsp; <img src="https://maps.googleapis.com/maps/api/staticmap?center=50.368608, 11&zoom=4&size=200x267&maptype=terrain&markers=color:blue%7Clabel:Konstanz%7CKonstanz&style=feature:road|visibility:off&style=feature:landscape|visibility:off&style=feature:poi|visibility:off">
 </div>
 
 
-
-
-## Life Me
-
-
-<div style="text-align:center;">
-<!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=50.368608, 11&zoom=4&size=200x200&maptype=terrain&markers=color:blue%7Clabel:Wurzen%7CWurzen&style=feature:road|visibility:off&style=feature:landscape|visibility:off&style=feature:poi|visibility:off"> -->
-<img src="https://maps.googleapis.com/maps/api/staticmap?center=50.368608, 11&zoom=4&size=200x200&maptype=terrain&markers=color:blue%7Clabel:Konstanz%7CKonstanz&style=feature:road|visibility:off&style=feature:landscape|visibility:off&style=feature:poi|visibility:off">
-</div>
