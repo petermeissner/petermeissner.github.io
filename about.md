@@ -14,3 +14,23 @@ Interested in web scraping and web data collection? I will teach a course about 
 Hallo, I am Peter Meißner, data enthusiast, R-lover, dog walker, toddler chaser. I live and work in Konstanz, Germany.
 
 For a living I gather data, make it behave, model it and take care that its secrets revealed appeal to the observers eyes. My tool set is heavily R-centric but involves everything that comes handy in getting the job done.
+
+
+
+
+## Picture Me
+
+<div style="text-align:center;">
+<img src="http://pmeissner.com/peter_meissner_ecpr.jpg">
+</div>
+
+
+
+
+## Life Me
+
+
+<div style="text-align:center;">
+<!-- <img src="https://maps.googleapis.com/maps/api/staticmap?center=50.368608, 11&zoom=4&size=200x200&maptype=terrain&markers=color:blue%7Clabel:Wurzen%7CWurzen&style=feature:road|visibility:off&style=feature:landscape|visibility:off&style=feature:poi|visibility:off"> -->
+<img src="https://maps.googleapis.com/maps/api/staticmap?center=50.368608, 11&zoom=4&size=200x200&maptype=terrain&markers=color:blue%7Clabel:Konstanz%7CKonstanz&style=feature:road|visibility:off&style=feature:landscape|visibility:off&style=feature:poi|visibility:off">
+</div>
