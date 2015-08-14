@@ -92,6 +92,7 @@ pre, code {
 /*  font-family: 'Inconsolata', sans-serif;*/
   font-size: 1em;
   background-color: #fafafa;
+  white-space:pre ; 
 }
 pre {
   border-color: #ddd;
