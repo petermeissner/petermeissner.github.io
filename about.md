@@ -13,11 +13,10 @@ layout: default
 
 # About Me
 
-Hallo, I am Peter Meißner, data enthusiast, R-lover, dog walker, toddler chaser. I live and work in Konstanz, Germany.
+Hallo, I am Peter Meißner, data enthusiast, R-lover, dog walker, toddler chaser. <br>
+I live and work in Konstanz, Germany.
 
 For a living I gather data, make it behave, model it and take care that its secrets appeal to the observers eyes. My tool set is heavily R-centric but involves everything that comes handy in getting the job done.
-
-
 
 
 <div style="text-align:center;">
