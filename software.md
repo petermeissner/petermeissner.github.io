@@ -24,6 +24,7 @@ Diffr is like diff for R only that it is not diff. Diffr is a software package f
 
 Find out more by visiting diffr's Github repository and browsing its [README](https://github.com/petermeissner/diffr).
 
-
-    # install from Github
-    devtools::install_github("petermeissner/diffr")
+``` r
+# install from Github
+devtools::install_github("petermeissner/diffr")
+```
