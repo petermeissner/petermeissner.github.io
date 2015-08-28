@@ -1,0 +1,235 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>  </title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="javascripts/d3.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Peter Meißner</h1>
+        <p>... welcome to my page</p>
+        <p>
+          <!-- jekyll menu solution source: http://thinkshout.com/blog/2014/12/creating-dynamic-menus-in-jekyll/ -->
+
+
+
+
+
+
+
+
+
+
+
+                  <a href='/about.html'>Welcome</a><br/>
+
+
+
+
+
+
+
+
+                  <a href='/puplications.html'>Publications</a><br/>
+
+
+
+
+
+
+
+
+                  <a href='/software.html'>Software</a><br/>
+
+
+
+        </p>
+        <p class="view">
+           <a href="https://github.com/petermeissner"> Stalk My Work</a><br>
+           <a href="https://twitter.com/marvin_dpr"> Tweet With Me</a><br>
+        </p>
+      </header>
+      <section>
+        <h2><em>Web Scraping With R</em></h2>
+
+<p><em>Interested in web scraping and web data collection? I will teach a course about web scraping with R at the ECPR Winter School of Methods and Techniques again - 29 February - 3 March 2016 . <a href="http://www.ecpr.eu/Events/EventDetails.aspx?EventID=103">Have a look here ...</a></em></p>
+
+<h1>About Me</h1>
+
+<p>Hallo, I am Peter Meißner, data enthusiast, R-lover, dog walker, toddler chaser. <br>
+I live and work in Konstanz, Germany.</p>
+
+<p>For a living I gather data, make it behave, model it and take care that its secrets appeal to the observer&#39;s eyes. My tool set is heavily R-centric but involves everything that comes handy in getting the job done.</p>
+
+<div style="text-align:center;">
+
+<img width="200" src="images/peter_meissner_ecpr.jpg">&nbsp;&nbsp;&nbsp;
+<img src="https://maps.googleapis.com/maps/api/staticmap?center=50.368608, 11&zoom=4&size=200x267&maptype=terrain&markers=color:blue%7Clabel:Konstanz%7CKonstanz&style=feature:road|visibility:off&style=feature:landscape|visibility:off&style=feature:poi|visibility:off">&nbsp;&nbsp;&nbsp;
+<svg width="200" height="267" style="border: solid 1px black"></svg>
+
+<script src="javascripts/d3.min.js"></script>
+<script>
+    var colors_ = ["#A7C8FD", "#0777CE","#FFA500","#6B8F68"] ;
+    random_letters = function(n){
+      if ( n === undefined ) var n = 1;
+      var letters = [0,1,2,3,4,5,6,7,8,9] /* [0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,"q","w","e","r","t","z","u","i","o","p","a","s","d","f","g","h","j","k","l","y","x","c","v","b","n","m"] */;
+      var res = [] ;
+      for (var i = 0; i < n; i++) {
+        res.push( letters[Math.round(Math.random()*(letters.length-1))] )
+      }
+      return res ;
+    }
+    random_colors = function(n){
+      if ( n === undefined ) var n = 1;
+      var colors = colors_ ;
+      var res = [] ;
+      for (var i = 0; i < n; i++) {
+        res.push( colors[Math.round(Math.random()*(colors.length-1))] )
+      }
+      return res ;
+    }
+   function endall(transition, callback) {
+     if (transition.size() === 0) { callback() }
+     var n = 0;
+     transition
+         .each(function() { ++n; })
+         .each("end", function() { if (!--n) callback.apply(this, arguments); });
+  }
+</script>
+<script>
+    for (i = 0; i < 100; i++) {
+        d3.select("svg")
+          .append( "text" )
+            .attr( "x", Math.random()*2+100 )
+            .attr( "y", Math.random()*2+132 )
+            .text( random_letters() )
+            .style("fill", random_colors() ) ;
+    }
+</script>
+<script>
+
+barchart = function (){
+  var texts = d3.selectAll( document.getElementsByTagName("text") )[0] ;
+  var bars = [0,0,0,0,0,0,0,0,0,0] ;
+  var DURATION = 5000 ;
+  for (i = 0; i < 100; i++) {
+    var t = texts[i];
+    content = t.textContent;
+    bars[content]++;
+    d3.select(t).transition().duration(DURATION).delay(100*i)
+      .attr("x", content * 20 + 5 )
+      .attr("y", bars[content] * 14 + 5 );
+  }
+  var texts2 = d3.selectAll(texts).style("fill", "red").transition(5000);
+}
+
+colorchart = function (){
+  var texts = d3.selectAll( document.getElementsByTagName("text") )[0] ;
+  var bars = [0,0,0,0,0,0,0,0,0,0] ;
+  for (i = 0; i < 100; i++) {
+    var t = texts[i];
+    content = t.textContent;
+    bars[content]++;
+    d3.select(t).transition().duration(5000)
+      .style("fill", random_colors() )
+      .attr("x", content * 20 + 5 )
+      .attr("y", bars[content] * 14 + 5 );
+  }
+}
+
+var text2 = d3.selectAll("text");
+text2
+.transition()
+  .duration(2000)
+  .attr( "x", function(i){return Math.random()*200} )
+  .attr( "y", function(i){return Math.random()*267} )
+  .style("fill", function(i){ return random_colors() } )
+  .call(endall, barchart ) ;
+</script>
+
+<script>
+
+</script>
+
+<script>
+/*
+var text3 = d3.selectAll("text")
+.transition()
+        .duration(4000)
+        .style("fill", random_colors() )
+.transition()
+        .duration(4000)
+        .attr( "x", function(i){return Math.random()*200} )
+        .attr( "y", function(i){return Math.random()*267} )
+        .style("fill", function(i){ return  random_colors() } )
+.transition()
+        .duration(4000)
+        .attr( "x", 100 )
+        .attr( "y", function(i){return Math.random()*267} )
+.transition()
+        .duration(4000)
+        .attr( "x", function(i){return Math.random()*200} )
+        .attr( "y", 130 )
+.transition()
+        .duration(4000)
+        .attr( "x", function(d,i){return i*2.00} )
+        .attr( "y", function(d,i){return i*2.67} )
+.transition()
+        .duration(10000)
+        .attr( "x", function(i){return Math.random()*200} )
+        .style("fill", function(i){ return random_colors() } )
+.transition()
+        .duration(10000)
+        .attr( "x", function(i){return Math.random()*200} )
+        .style("fill", random_colors() )
+.transition()
+        .duration(10000)
+        .attr( "y", function(i){return Math.random()*267} )
+        .style("fill", function(i){ return random_colors() } )
+.transition()
+        .duration(10000)
+        .attr( "x", function(i){return Math.random()*200} )
+        .style("fill", random_colors() )
+.transition()
+        .duration(10000)
+        .attr( "y", function(i){return Math.random()*267} )
+        .style("fill", function(i){ return random_colors() } )
+.transition()
+        .duration(10000)
+        .attr( "x", function(i){return Math.random()*200} )
+        .style("fill", random_colors() )
+.transition()
+        .duration(10000)
+        .attr( "y", function(i){return Math.random()*267} )
+        .style("fill", function(i){ return random_colors() } )
+        .transition()
+        .duration(10000)
+        .attr( "y", function(i){return Math.random()*267} )
+        .style("fill", random_colors() )
+        .text(":-)")
+.transition()
+        .duration(10000)
+        .attr( "x", function(i){return Math.random()*200} )
+        .style("fill", function(i){ return random_colors() } )
+        .text( function(d){  return random_letters() } )
+        ;
+*/
+</script>
+
+
+</div>
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
+</html>
