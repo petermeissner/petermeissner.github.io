@@ -73,77 +73,126 @@ I live and work in Konstanz, Germany.</p>
 <svg width="200" height="267" style="border: solid 1px black"></svg>
 
 <script src="javascripts/d3.min.js"></script>
-<script>
-    var colors_ = ["#A7C8FD", "#0777CE","#FFA500","#6B8F68"] ;
-    random_letters = function(n){
-      if ( n === undefined ) var n = 1;
-      var letters = [0,1,2,3,4,5,6,7,8,9] /* [0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,"q","w","e","r","t","z","u","i","o","p","a","s","d","f","g","h","j","k","l","y","x","c","v","b","n","m"] */;
-      var res = [] ;
-      for (var i = 0; i < n; i++) {
-        res.push( letters[Math.round(Math.random()*(letters.length-1))] )
-      }
-      return res ;
-    }
-    random_colors = function(n){
-      if ( n === undefined ) var n = 1;
-      var colors = colors_ ;
-      var res = [] ;
-      for (var i = 0; i < n; i++) {
-        res.push( colors[Math.round(Math.random()*(colors.length-1))] )
-      }
-      return res ;
-    }
-   function endall(transition, callback) {
-     if (transition.size() === 0) { callback() }
-     var n = 0;
-     transition
-         .each(function() { ++n; })
-         .each("end", function() { if (!--n) callback.apply(this, arguments); });
-  }
-</script>
+<script src="javascripts/helpers.js"></script>
 <script>
     for (i = 0; i < 100; i++) {
+      var x     = Math.random()*2+100 ;
+      var y     = Math.random()*2+132 ;
+      var text  = random_letters() ;
+      var color = random_colors()  ;
         d3.select("svg")
           .append( "text" )
-            .attr( "x", Math.random()*2+100 )
-            .attr( "y", Math.random()*2+132 )
-            .text( random_letters() )
-            .style("fill", random_colors() ) ;
+            .attr( "x",     x )
+            .attr( "y",     y )
+            .text(          text )
+            .style("fill",  color ) ;
+
+        d3.select("svg")
+          .append( "text" )
+            .attr( "x",     x )
+            .attr( "y",     y )
+            .text(          text )
+            .style("fill",  color ) ;
+
     }
 </script>
 <script>
-
+var col_index = [] ;
+var col_raw = [];
 barchart = function (){
   var texts = d3.selectAll( document.getElementsByTagName("text") )[0] ;
-  var bars = [0,0,0,0,0,0,0,0,0,0] ;
-  var DURATION = 5000 ;
+  var bars_num  = [0,0,0,0,0,0,0,0,0,0] ;
+  var bars_col  = [0,0,0,0] ;
+  var col_num   = [] ;
+  for (var i = 0; i < bars_num.length; i++) {
+    col_num[i] = [];
+    for (var j = 0; j < bars_col.length ; j++) {
+      col_num[i][j] = 0 ;
+    }
+  }
+  var DURATION = 1000 ;
+  var DELAY    = 10 ;
+  var yoffset = 15;
+  var ydist   = 15;
   for (i = 0; i < 100; i++) {
     var t = texts[i];
     content = t.textContent;
-    bars[content]++;
-    d3.select(t).transition().duration(DURATION).delay(100*i)
-      .attr("x", content * 20 + 5 )
-      .attr("y", bars[content] * 14 + 5 );
+    bars_num[content]++;
+    col_num[content][which_color( d3_rgb_to_hex(t.style.fill) )]++ ;
+    d3.select(t).transition().duration(DURATION).delay(DELAY*i)
+      .attr("x", bars_num[content] * 2 + 15 )
+      .attr("y", content * ydist + yoffset )
+      .text("|")
+      .style("fill", "steelblue")
+      .style("font-size", "85%")
+      ;
   }
-  var texts2 = d3.selectAll(texts).style("fill", "red").transition(5000);
-}
+  for (var i = 0; i < bars_num.length; i++) {
+    d3.select("svg").append("text")
+      .attr("x",3).attr("y", 0 ).text(i).style("fill", "steelblue").style("font-size", "85%")
+      .transition().duration(DURATION).delay(DELAY*i+DURATION+DELAY*75).attr("x",3).attr("y", i * ydist + yoffset ) ;
 
-colorchart = function (){
-  var texts = d3.selectAll( document.getElementsByTagName("text") )[0] ;
-  var bars = [0,0,0,0,0,0,0,0,0,0] ;
-  for (i = 0; i < 100; i++) {
+  }
+  for (i = 100; i < 200; i++) {
     var t = texts[i];
-    content = t.textContent;
-    bars[content]++;
-    d3.select(t).transition().duration(5000)
-      .style("fill", random_colors() )
-      .attr("x", content * 20 + 5 )
-      .attr("y", bars[content] * 14 + 5 );
+    var content = which_color( d3_rgb_to_hex(t.style.fill) ) ;
+    bars_col[content]++;
+      d3.select(t).transition().duration(DURATION).delay(DELAY*i)
+      .attr("x", content * 30 + 80 )
+      .attr("y", bars_col[content] * (-2) + 250 )
+      .text("–")
+      .style("font-size", "105%")
+      ;
   }
+  for (var i = 0; i < bars_col.length; i++) {
+    d3.select("svg").append("rect")
+      .attr("width", 10).attr("height", 10)
+      .attr("x",-300).attr("y", -100 )
+      .style("font-size", "105%").style("fill", colors_[i])
+      .transition()
+        .duration(DURATION).delay(DELAY*i+DURATION+DELAY*75)
+        .attr("x", i *  30 + 80 )
+        .attr("y", 255 )
+    ;
+
+  }
+  for (var i = 0; i < bars_num.length; i++) {
+    for (var j = 0; j < bars_col.length ; j++) {
+    d3.select("svg")
+      .append("circle")
+        .attr("cx", 85 + 30 * j )
+        .attr("cy", i* ydist + yoffset )
+        .attr("r", 0.1)
+        .style("fill", "steelblue")
+      .transition().duration(DURATION).delay(DURATION*2+ i*51 + j*72)
+        .attr("r", col_num[i][j] )
+        .style("fill", colors_[j])
+    ;
+    }
+  }
+  d3.selectAll("circle").transition().delay(10000).remove() ;
+  d3.selectAll("rect").transition().delay(10000).remove() ;
+  d3.selectAll("text")
+    .transition()
+    .delay(10000)
+    .filter( function(d,i){var res = false; if(i >= 200){ res = true;}; return res ;  } )
+    .remove()
+  ;
+  d3.selectAll("text").transition().delay(10000).duration(4000)
+    .attr("x", function(d){return Math.random()*200; })
+    .attr("y", function(d){return Math.random()*267 ;} )
+    .text(function(d){return random_letters() ;} )
+    .style("fill", function(d){return random_colors() ;} )
+  ;
+  dummy = function(){
+    location.reload();
+  }
+  setTimeout(dummy,30000);
 }
 
-var text2 = d3.selectAll("text");
-text2
+
+var texts = d3.selectAll("text");
+texts
 .transition()
   .duration(2000)
   .attr( "x", function(i){return Math.random()*200} )
