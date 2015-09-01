@@ -37,3 +37,6 @@ which_color = function(col) {
 d3_rgb_to_hex = function(rgb){
   return eval("d3." + rgb + ".toString().toUpperCase()") ;
 }
+realod_dummy = function(){
+  location.reload();
+}
