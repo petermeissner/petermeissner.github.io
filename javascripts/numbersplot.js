@@ -119,21 +119,25 @@ barchart = function (){
     ;
     }
   }
+  var x = 0.95 ; var y = 25 ; var z = 10 ;
+  d3.select("svg").append("text").text("random").attr("x" ,7+z ).attr("y", 180*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("numbers").attr("x" ,5+z ).attr("y", 195*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("in").attr("x" ,24+z ).attr("y", 210*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("random").attr("x" ,7+z ).attr("y", 225*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("colors").attr("x" ,12+z   ).attr("y", 240*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
 }
-
 
 remove_legend = function(){
   d3.selectAll(".delete").remove() ;
 }
 
 reshuffle_data = function(){
-  for (var i = 0; i < 100.length; i++) {
-    100[i]
-  }
-  d3.selectAll("text").transition().transition().delay(function(d,i){return 200 * i;}).duration(4000)
+  d3.selectAll("text").transition().duration(1000)
+    .text(function(d){return random_letters() ;} )
+    .transition().duration(7000).delay(function(d,i){return 60 * i;})
     .attr("x", function(d){return Math.random()*200; })
     .attr("y", function(d){return Math.random()*267 ;} )
-    .text(function(d){return random_letters() ;} )
     .style("fill", function(d){return random_colors() ;} )
+    .style("font-size","100%")
   ;
 }
