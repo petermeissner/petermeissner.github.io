@@ -120,11 +120,11 @@ barchart = function (){
     }
   }
   var x = 0.95 ; var y = 25 ; var z = 10 ;
-  d3.select("svg").append("text").text("random").transition().duration(DURATION).delay(DELAY_CIRCLES).attr("x" ,7+z ).attr("y", 180*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
-  d3.select("svg").append("text").text("numbers").transition().duration(DURATION).delay(DELAY_CIRCLES).attr("x" ,5+z ).attr("y", 195*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
-  d3.select("svg").append("text").text("in").transition().duration(DURATION).delay(DELAY_CIRCLES).attr("x" ,24+z ).attr("y", 210*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
-  d3.select("svg").append("text").text("random").transition().duration(DURATION).delay(DELAY_CIRCLES).attr("x" ,7+z ).attr("y", 225*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
-  d3.select("svg").append("text").text("colors").transition().duration(DURATION).delay(DELAY_CIRCLES).attr("x" ,12+z   ).attr("y", 240*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("random").transition().duration(DURATION*1.6).delay(DELAY_CIRCLES).attr("x" ,7+z ).attr("y", 180*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("numbers").transition().duration(DURATION*1.8).delay(DELAY_CIRCLES).attr("x" ,5+z ).attr("y", 195*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("in").transition().duration(DURATION*1.7).delay(DELAY_CIRCLES).attr("x" ,24+z ).attr("y", 210*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("random").transition().duration(DURATION*1.6).delay(DELAY_CIRCLES).attr("x" ,7+z ).attr("y", 225*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
+  d3.select("svg").append("text").text("colors").transition().duration(DURATION*2).delay(DELAY_CIRCLES).attr("x" ,12+z   ).attr("y", 240*x+y).style("fill", random_colors() ).attr("class", "delete").style("font-size", "75%");
 }
 
 remove_legend = function(){
