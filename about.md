@@ -38,3 +38,8 @@ For a living I gather data, make it behave, model it and take care that its secr
 
 
 </div>
+
+
+# Contact
+
+Use Twitter [@marvin_dpr](https://twitter.com/marvin_dpr) or good old [mail at pmeissner dot com](). 
