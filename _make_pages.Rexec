@@ -36,8 +36,12 @@ library(RCurl)
 #### getting MD file names and YAML options ===================================
 
 md_fnames   <- list.files(pattern="\\.md")
-html_fnames <- str_replace(md_fnames, "\\.md$", ".html")
-pdf_fnames  <- str_replace(md_fnames, "\\.md$", ".pdf")
+md_fnames   <- md_fnames[order(str_extract(md_fnames,"^\\d*"))]
+html_fnames <- str_replace(
+                str_replace(md_fnames, "^\\d*", ""), 
+                "\\.md$", ".html"
+              )
+
 
 md_files <- lapply(md_fnames, readLines, encoding="UTF-8")
 options  <- lapply(md_files, get_yaml_options)
