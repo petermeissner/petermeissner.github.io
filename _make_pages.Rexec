@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/Rscript 
 
 try(setwd("~/Dropbox/petermeissner.github.io"))
 try(setwd("c:/Dropbox/petermeissner.github.io"))
