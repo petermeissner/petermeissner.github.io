@@ -15,7 +15,7 @@ Meißner (2014): *Introduction to Public Attention Analytics with Wikipediatrend
 
 # Books
 
-[Munzert](http://simonmunzert.github.io/), [Rubba](http://christianrubba.com/), [Meißner](http://pmeissner.com), [Nyhuis](https://www.youtube.com/watch?v=SiYrSYd7mlc><https://www.youtube.com/watch?v=SiYrSYd7mlc) (2014): *Automated Data Collection with R: A Practical Guide to Web Scraping and Text Mining*. Wiley
+Munzert, Rubba, Meißner, Nyhuis (2014): *Automated Data Collection with R: A Practical Guide to Web Scraping and Text Mining*. Wiley
 
 Bailer, Meißner, Ohmura, Selb (2013): *Seiteneinsteiger im Deutschen Bundestag*. Springer VS
 

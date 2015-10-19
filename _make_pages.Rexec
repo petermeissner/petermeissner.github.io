@@ -1,3 +1,10 @@
+#!/usr/bin/Rscript
+
+try(setwd("~/Dropbox/petermeissner.github.io"))
+try(setwd("c:/Dropbox/petermeissner.github.io"))
+
+writeLines("started", "_make_pages.Rexec.log")
+
 # script for building webpage with Rrrrrrrrr rrrrr rrr and pandoc
 
 #### setting things up ========================================================
@@ -90,10 +97,8 @@ uploadToServer(
   paste0("pmeissner/", html_fnames)
 )
 
+uploadToServer( "index.html", "pmeissner/index.html")
+uploadToServer( "robots.txt", "pmeissner/robots.txt")
 
-
-
-
-
-
+writeLines("done", "_make_pages.Rexec.log")
 

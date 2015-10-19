@@ -10,7 +10,7 @@ layout: default
 Hallo, I am Peter Meißner, data enthusiast, R-lover, dog walker, toddler chaser. <br>
 I live and work in Konstanz, Germany.
 
-For a living I gather data, make it behave, model it and take care that its secrets appeal to the observer's eyes. My tool set is heavily R-centric but involves everything that comes handy in getting the job done.
+For a living I gather data, make it behave, model it and take care that it is presented properly. My tool set is heavily R-centric but involves everything that comes handy in getting the job done (HTML, Javascript, SQLite, MySQL, PHP, Stata, Latex, Markdown, Word, Excel).
 
 
 <div style="text-align:center;">

@@ -12,7 +12,11 @@ layout: default
 
 ### *Web Scraping With R -- Read The Book*
 
-Interested in web scraping and web data collection? Since the very end of 2014 there is a book for that. [Have a look here ...](http://www.r-datacollection.com/)
+Interested in web scraping and web data collection? Since the very end of 2014 there is a book for that. 
+
+... visit the books  [web page](http://www.r-datacollection.com/) <br>
+... stalk the authors:  [Simon Munzert](http://simonmunzert.github.io/) / [Christian Rubba](http://christianrubba.com/) / [Peter Meißner](http://pmeissner.com) / [Dominic Nyhuis](https://www.youtube.com/watch?v=SiYrSYd7mlc><https://www.youtube.com/watch?v=SiYrSYd7mlc) <br>
+... buy the   [book](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111883481X.html) 
 
 
 ### *Web Scraping With R -- Take The Course*
