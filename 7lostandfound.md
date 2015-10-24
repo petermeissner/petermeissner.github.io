@@ -4,6 +4,10 @@ title: Lost'n'Found
 layout: default
 ---
 
+### No Github passwords anymore!
+
+http://www.tilcode.com/push-github-without-entering-username-password-windows-git-bash/
+
 ### #!/usr/bin/Rscript not working 
 
 http://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter
