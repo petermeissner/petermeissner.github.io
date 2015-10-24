@@ -1,6 +1,6 @@
 ---
 author: peter meißner
-title: People
+title: People & Places
 layout: default
 ---
 
