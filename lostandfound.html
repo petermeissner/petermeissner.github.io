@@ -18,7 +18,7 @@
 <a href='about'>About Me</a><br>
 <a href='puplications'>Publications</a><br>
 <a href='software'>Software</a><br>
-<a href='people'>People</a><br>
+<a href='people'>People & Places</a><br>
 <a href='contact'>Contact</a><br>
 <a href='lostandfound'>Lost'n'Found</a>
 
@@ -31,19 +31,81 @@
         </p>
       </header>
       <section>
-        <h3>#!/usr/bin/Rscript not working</h3>
+        <h2>saving RasPi image</h2>
+
+<p><a href="https://linuxundich.de/raspberry-pi/linux-images-fuer-den-raspberry-pi-auf-sd-karte-installieren/">https://linuxundich.de/raspberry-pi/linux-images-fuer-den-raspberry-pi-auf-sd-karte-installieren/</a></p>
+
+<h2>AutoHotKey for Linux</h2>
+
+<ul>
+<li>autokey source: <a href="https://github.com/guoci/autokey-py3">https://github.com/guoci/autokey-py3</a></li>
+<li>scripting API: <a href="http://autokey.googlecode.com/svn/trunk/doc/scripting/index.html">http://autokey.googlecode.com/svn/trunk/doc/scripting/index.html</a></li>
+<li>example scripts: <a href="https://code.google.com/p/autokey/wiki/ContributedScripts">https://code.google.com/p/autokey/wiki/ContributedScripts</a></li>
+</ul>
+
+<p><em>install:</em> </p>
+
+<pre><code class="shell">sudo apt-get autokey-qt
+</code></pre>
+
+<p><em>&ldquo;push marked text from Gedit to terminal&rdquo;-autokey-script:</em></p>
+
+<pre><code class="python"># autokey/python script for pushing text from Gedit to terminal
+window.activate(title=&quot;:ACTIVE:&quot;)
+
+# get class and title of current window, save clipboard
+var1    = window.get_active_class()
+title1  = window.get_active_title()
+oldtext = clipboard.get_clipboard()
+text =&quot;&quot;
+
+# only execute script from Gedit
+if var1 == &quot;gedit.Gedit&quot; : 
+    var2    = window.get_active_title()
+    text    = clipboard.get_selection()
+    window.activate(title=&quot;Terminal&quot;) 
+
+    # paste to terminal
+    if var2 == &quot;Terminal&quot; : 
+        keyboard.send_keys(text)
+        keyboard.send_keys(&quot;n&quot;)
+
+    # go back to Gedit
+    window.activate(title=title1)
+
+# restore clipboard
+clipboard.fill_clipboard(oldtext)
+</code></pre>
+
+<h2>Adding CRAN mirror to repository list on Linux Ubuntu / Mint</h2>
+
+<p><a href="https://cran.r-project.org/bin/linux/ubuntu/README.html">https://cran.r-project.org/bin/linux/ubuntu/README.html</a></p>
+
+<h2>A collection of text files on politics</h2>
+
+<p><a href="http://www.textfiles.com/politics/">http://www.textfiles.com/politics/</a></p>
+
+<h2>A CC licensed book on string manipulations in R - Gaston Sanchez</h2>
+
+<p><a href="http://gastonsanchez.com/Handling_and_Processing_Strings_in_R.pdf">http://gastonsanchez.com/Handling_and_Processing_Strings_in_R.pdf</a></p>
+
+<h2>No Github passwords any more!</h2>
+
+<p><a href="http://www.tilcode.com/push-github-without-entering-username-password-windows-git-bash/">http://www.tilcode.com/push-github-without-entering-username-password-windows-git-bash/</a></p>
+
+<h2>#!/usr/bin/Rscript not working</h2>
 
 <p><a href="http://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter">http://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter</a></p>
 
-<h3>adding mime type to Linux / *buntu and changing icon</h3>
+<h2>adding mime type to Linux / *buntu and changing icon</h2>
 
 <p><a href="http://askubuntu.com/a/56725/183446">http://askubuntu.com/a/56725/183446</a></p>
 
-<h3>pushing to Github without username / password input</h3>
+<h2>pushing to Github without username / password input</h2>
 
 <p><a href="http://stackoverflow.com/questions/8588768/git-push-username-password-how-to-avoid">http://stackoverflow.com/questions/8588768/git-push-username-password-how-to-avoid</a></p>
 
-<h3>dinosaur data and pictures</h3>
+<h2>dinosaur data and pictures</h2>
 
 <p><a href="http://www.nhm.ac.uk/discover/dino-directory/name/a/gallery.html">http://www.nhm.ac.uk/discover/dino-directory/name/a/gallery.html</a></p>
 

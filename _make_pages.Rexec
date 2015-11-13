@@ -119,6 +119,8 @@ uploadToServer( "robots.txt", "pmeissner/robots.txt")
 
 
 # upload_folder("images")
+# upload_folder("stylesheets")
+# upload_folder("downloads")
 
 
 #### log ======================================================================

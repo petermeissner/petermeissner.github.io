@@ -25,7 +25,7 @@ devtools::install_github("petermeissner/wikipediatrend")
 ```
 
 
-# diffr
+# <img src="/images/diffr.png" style="width: 50px; vertical-align:middle;" /> diffr
 
 Diffr is like diff for R only that it is not diff. Diffr is a software package for R providing functions to compare text versions, aligning lines and measure distances between texts.
 
