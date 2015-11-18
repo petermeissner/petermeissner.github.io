@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title> Lost'n'Found </title>
     <link rel="stylesheet" href="stylesheets/styles.css">
+		<!-- 
+			syntax highlighting with highlight.js: 
+			LICENSE: http://pmeissner.com/stylesheets/highlight_js/LICENSE 
+		-->
+    <link rel="stylesheet" href="stylesheets/highlight_js/styles/default.css">
+    <script src="stylesheets/highlight_js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script src="javascripts/d3.min.js"></script>
   </head>
@@ -31,7 +39,21 @@
         </p>
       </header>
       <section>
-        <h2>saving RasPi image</h2>
+        <h2>Linux pandoc for images / convert jpg to pdf</h2>
+
+<p><a href="http://www.imagemagick.org/script/convert.php">http://www.imagemagick.org/script/convert.php</a></p>
+
+<p><em>install:</em></p>
+
+<pre><code class="bash">sudo apt-get imagemagick
+</code></pre>
+
+<p><em>jpg to small grey scale pdf</em></p>
+
+<pre><code class="bash">convert -density 300x300 -quality 2 -compress jpeg -colorspace Gray -colors 64 input1.jpg input2.jpg output.pdf
+</code></pre>
+
+<h2>saving RasPi image</h2>
 
 <p><a href="https://linuxundich.de/raspberry-pi/linux-images-fuer-den-raspberry-pi-auf-sd-karte-installieren/">https://linuxundich.de/raspberry-pi/linux-images-fuer-den-raspberry-pi-auf-sd-karte-installieren/</a></p>
 
@@ -45,7 +67,7 @@
 
 <p><em>install:</em> </p>
 
-<pre><code class="shell">sudo apt-get autokey-qt
+<pre><code class="bash">sudo apt-get autokey-qt
 </code></pre>
 
 <p><em>&ldquo;push marked text from Gedit to terminal&rdquo;-autokey-script:</em></p>

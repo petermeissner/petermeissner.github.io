@@ -4,6 +4,22 @@ title: Lost'n'Found
 layout: default
 ---
 
+## Linux pandoc for images / convert jpg to pdf
+
+http://www.imagemagick.org/script/convert.php
+
+*install:*
+
+```bash
+sudo apt-get imagemagick
+```
+
+*jpg to small grey scale pdf*
+
+```bash
+convert -density 300x300 -quality 2 -compress jpeg -colorspace Gray -colors 64 input1.jpg input2.jpg output.pdf
+```
+
 ## saving RasPi image 
 
 https://linuxundich.de/raspberry-pi/linux-images-fuer-den-raspberry-pi-auf-sd-karte-installieren/
@@ -16,7 +32,7 @@ https://linuxundich.de/raspberry-pi/linux-images-fuer-den-raspberry-pi-auf-sd-ka
 
 *install:* 
 
-```shell
+```bash
 sudo apt-get autokey-qt
 ```
 

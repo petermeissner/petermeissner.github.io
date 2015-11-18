@@ -116,6 +116,11 @@ uploadToServer( "robots.txt", "pmeissner/robots.txt")
 
 #### uploading other stuff to server too ======================================
 
+#last_upload <- file.info("_make_pages.Rexec.log")$mtime
+
+#if(file.info("images")$mtime > last_upload) upload_folder("images")
+#if(file.info("downloads")$mtime > last_upload) upload_folder("downloads")
+#if(file.info("stylesheets")$mtime > last_upload) upload_folder("stylesheets")
 
 
 # upload_folder("images")
