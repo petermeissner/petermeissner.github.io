@@ -4,6 +4,11 @@ title: Lost'n'Found
 layout: default
 ---
 
+## Administrative Boundaries Datasets (shape, R, EXRI, kmz, ... )
+
+[Global Administrative Areas - Boundaries without limits](http://gadm.org/about)
+
+
 ## Linux pandoc for images / convert jpg to pdf
 
 http://www.imagemagick.org/script/convert.php
