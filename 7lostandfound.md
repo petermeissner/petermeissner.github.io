@@ -4,6 +4,13 @@ title: Lost'n'Found
 layout: default
 ---
 
+## Listen Wikipedia by Hatnote 
+
+Changes to Wikipedia as sound - tune in and chill out ... 
+
+[http://listen.hatnote.com](http://listen.hatnote.com/#en)
+
+
 ## Administrative Boundaries Datasets (shape, R, EXRI, kmz, ... )
 
 [Global Administrative Areas - Boundaries without limits](http://gadm.org/about)
