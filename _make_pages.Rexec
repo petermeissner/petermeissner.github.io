@@ -111,6 +111,7 @@ uploadToServer(
 
 uploadToServer( "index.html", "pmeissner/index.html")
 uploadToServer( "robots.txt", "pmeissner/robots.txt")
+uploadToServer( "favicon.fav", "pmeissner/favicon.fav")
 
 
 
