@@ -12,6 +12,8 @@ layout: default
 
 ### *Web Scraping With R -- Read The Book*
 
+<img class="magnify" src="images/adcr_titlepage.png" width="100" style="vertical-align:middle; float:right;"/>
+
 Interested in web scraping and web data collection? Since the very end of 2014 there is a book for that. 
 
 ... visit the books  [web page](http://www.r-datacollection.com/) <br>
@@ -19,7 +21,16 @@ Interested in web scraping and web data collection? Since the very end of 2014 t
 ... buy the   [book](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-111883481X.html) 
 
 
+
+
+
+
 ### *Web Scraping With R -- Take The Course*
 
-Interested in web scraping and web data collection? I will teach a course about web scraping with R at the ECPR Winter School of Methods and Techniques again - 29 February - 3 March 2016 . [Have a look here ...](http://www.ecpr.eu/Events/EventDetails.aspx?EventID=103)
+<img class="magnify" src="images/teaser_portrait.png" width="100" style="vertical-align:middle; float:right;"/>
+
+Interested in web scraping and web data collection? I will teach a course about web scraping with R at the ECPR Winter School of Methods and Techniques - 29 February - 3 March 2016 . [Have a look here ...](http://ecpr.eu/Events/PanelDetails.aspx?PanelID=4528&EventID=103)
+
+
+
 

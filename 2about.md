@@ -12,6 +12,7 @@ I live and work in Konstanz, Germany.
 
 For a living I gather data, make it behave, model it and take care that it is presented properly. My tool set is heavily R-centric but involves everything that comes handy in getting the job done (HTML, Javascript, SQLite, MySQL, PHP, Stata, Latex, Markdown, Word, Excel).
 
+<script src="javascripts/d3.min.js"></script>
 
 <div style="text-align:center;">
 <img height="267" src="images/petermeissner.jpg">

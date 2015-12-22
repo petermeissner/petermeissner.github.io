@@ -10,6 +10,9 @@ fotografie
 # <a href='http://www.lorenz-ebersbach.de/'>Lorenz Ebersbach <img src="/images/lorenzebersbach.jpg" style="width: 50px; vertical-align:middle; float:right;" /></a>
 time based art
 
+# <a href="http://nadine.meidert.net/">Nadine Meidert <img src="/images/nadinemeidert.png"  style="width: 50px; vertical-align:middle; float:right;" /></a> 
+research consulting
+
 # <a href='http://simonmunzert.github.io/'>Simon Munzert <img src="/images/simonmunzert.jpg" style="width: 50px; vertical-align:middle; float:right;" /></a>
 political science. surveys. data. web scraping. and all that.
 

@@ -111,7 +111,8 @@ uploadToServer(
 
 uploadToServer( "index.html", "pmeissner/index.html")
 uploadToServer( "robots.txt", "pmeissner/robots.txt")
-uploadToServer( "favicon.fav", "pmeissner/favicon.fav")
+uploadToServer( "favicon.ico", "pmeissner/favicon.ico")
+uploadToServer( "magnify.cur", "pmeissner/magnify.cur")
 
 
 
@@ -127,6 +128,7 @@ uploadToServer( "favicon.fav", "pmeissner/favicon.fav")
 # upload_folder("images")
 # upload_folder("stylesheets")
 # upload_folder("downloads")
+# upload_folder("javascripts")
 
 
 #### log ======================================================================
