@@ -6,6 +6,8 @@ layout: default
 
 # Blogging
 
+Meißner (2015): *One Solution to the 'stringsAsFactors'-Problem - Or: Hell-Yeah there is HELLNO*. r-datacollection.com [link](http://www.r-datacollection.com/blog/hellno/)
+
 Meißner (2015): *Using wikipediatrend*. r-datacollection.com [link](http://www.r-datacollection.com/blog/Using-wikipediatrend/)
 
 Meißner (2015): *Making R Files Executable (under Windows)*. r-datacollection.com [link](http://www.r-datacollection.com/blog/Making-R-files-executable/)

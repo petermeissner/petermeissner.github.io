@@ -1,5 +1,7 @@
 #!/usr/bin/Rscript
 
+message("\n... starting ... \n")
+
 try(setwd("~/Dropbox/petermeissner.github.io"))
 try(setwd("c:/Dropbox/petermeissner.github.io"))
 
@@ -14,7 +16,10 @@ library(RCurl)
 
 
 
+
 #### functions and helpers ====================================================
+message("\n... def helpers ... \n")
+
 
     # get title and layout file to be used
     get_yaml_options <- function(md){
@@ -37,6 +42,7 @@ library(RCurl)
             "ftp://", ftp_user, ":", ftp_password, "@", ftp_server, "/", dest[i]
           )
         )
+        message(paste("  ... ", files[i], " ... uploaded"))
       }
     }
 
@@ -49,6 +55,7 @@ upload_folder <- function(folder){
 }
 
 #### getting MD file names and YAML options ===================================
+message("\n... doing conversion ... \n")
 
 md_fnames   <- list.files(pattern="\\.md")
 md_fnames   <- md_fnames[order(str_extract(md_fnames,"^\\d*"))]
@@ -103,6 +110,7 @@ for(i in md_sequence){
 
 
 #### uploading to server ======================================================
+message("\n... uploading to server ... \n")
 
 uploadToServer(
   html_fnames, 
@@ -132,6 +140,11 @@ uploadToServer( "magnify.cur", "pmeissner/magnify.cur")
 
 
 #### log ======================================================================
-
+message("\n... logging ... \n")
 write(as.character(Sys.time()), file="_make_pages.Rexec.log", append=TRUE)
+
+
+#### done =====================================================================
+message("\n... done ... \n")
+
 
