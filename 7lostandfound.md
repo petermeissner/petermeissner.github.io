@@ -4,6 +4,28 @@ title: Lost'n'Found
 layout: default
 ---
 
+## (notable) CRAN task views
+
+- [Social sciences](https://cran.r-project.org/web/views/SocialSciences.html)
+		- find all those different regression models
+- [Web technologies](https://cran.r-project.org/web/views/WebTechnologies.html)
+		- anything for making and breaking the Web
+		- scraping and parsing of Web formats
+		- API access
+- [Official Statistics](https://cran.r-project.org/web/views/OfficialStatistics.html)
+		- more sexy than you think
+		- record linkage
+		- seasonal adjustment 
+		- weighting
+		- small area estimation
+		- imputation
+- [Machine Learning](https://cran.r-project.org/web/views/MachineLearning.html)
+
+
+## Awesome list of awesome R stuff
+
+https://github.com/qinwf/awesome-R
+
 
 ## Nginx logging
 
