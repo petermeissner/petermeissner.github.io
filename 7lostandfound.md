@@ -4,6 +4,13 @@ title: Lost'n'Found
 layout: default
 ---
 
+## rOpenGov
+
+R projects concerned with political / government data.
+
+http://ropengov.github.io/projects/
+
+
 ## (notable) CRAN task views
 
 - [Social sciences](https://cran.r-project.org/web/views/SocialSciences.html)
