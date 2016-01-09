@@ -4,6 +4,23 @@ title: Lost'n'Found
 layout: default
 ---
 
+
+## recursive ftp download with R
+
+http://stackoverflow.com/q/5227444/1144966
+
+
+## Markov Chains -- Explained Visually (Victor Powell)
+
+http://setosa.io/ev/markov-chains/
+
+
+## xmodmap
+
+HowTo xmodmap: https://wiki.archlinux.org/index.php/Xmodmap
+List of XF86... key names: http://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols
+
+
 ## rOpenGov
 
 R projects concerned with political / government data.

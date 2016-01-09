@@ -2,8 +2,8 @@
 
 message("\n... starting ... \n")
 
-try(setwd("~/Dropbox/petermeissner.github.io"))
-try(setwd("c:/Dropbox/petermeissner.github.io"))
+try(setwd("~/Dropbox/petermeissner.github.io"), silent=TRUE)
+try(setwd("c:/Dropbox/petermeissner.github.io"), silent=TRUE)
 
 # script for building webpage with Rrrrrrrrr rrrrr rrr and pandoc
 

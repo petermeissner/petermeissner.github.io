@@ -4,6 +4,17 @@ title: Software
 layout: default
 ---
 
+# <img src="/images/robotstxt.png" style="width: 50px; vertical-align:middle;" /> robotstxt
+
+A software package for R that provides tobots.txt file parsing and bot permission checking. 
+
+Find out more by visiting robotstxt's Github repository and browse through its [README](https://github.com/petermeissner/robotstxt).
+
+``` r
+# install from Github
+devtools::install_github("petermeissner/robotstxt")
+```
+
 
 # <img src="/images/unikonstanzmensabot.jpg" style="width: 50px; vertical-align:middle;" /> Uni-Konstanz-Mensa/Canteen-Twitter-Bot
  
