@@ -5,6 +5,17 @@ layout: default
 ---
 
 
+## Data Science Notes (Dmitriy Selivanov on R and text) 
+
+http://dsnotes.com/archive.html
+
+
+## Git(hub) cheat sheet
+
+https://education.github.com/git-cheat-sheet-education.pdf
+
+
+
 ## recursive ftp download with R
 
 http://stackoverflow.com/q/5227444/1144966
