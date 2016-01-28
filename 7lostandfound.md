@@ -5,7 +5,13 @@ layout: default
 ---
 
 
-## Data Science Notes (Dmitriy Selivanov on R and text) 
+## On dates and times in R (Naom *'The Helpful'* Ross)
+
+http://www.noamross.net/blog/2014/2/10/using-times-and-dates-in-r---presentation-code.html
+
+
+
+## Data Science Notes (Dmitriy *'Parallel'* Selivanov on R and text) 
 
 http://dsnotes.com/archive.html
 

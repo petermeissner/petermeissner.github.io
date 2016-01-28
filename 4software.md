@@ -6,6 +6,8 @@ layout: default
 
 # <img src="/images/robotstxt.png" style="width: 50px; vertical-align:middle;" /> robotstxt
 
+[[Package source at Github]](https://github.com/petermeissner/robotstxt)
+
 A software package for R that provides tobots.txt file parsing and bot permission checking. 
 
 Find out more by visiting robotstxt's Github repository and browse through its [README](https://github.com/petermeissner/robotstxt).
@@ -16,13 +18,19 @@ devtools::install_github("petermeissner/robotstxt")
 ```
 
 
+
+
 # <img src="/images/unikonstanzmensabot.jpg" style="width: 50px; vertical-align:middle;" /> Uni-Konstanz-Mensa/Canteen-Twitter-Bot
- 
+
+[[Package source at Github]](https://github.com/petermeissner/unikonstanzmensabot)
+
 This sturdy little fellow -- called Mampf-Bot or Mampfy by his friends -- daily moves out to do his tasks. First, Mampfy fetches fresh  menus from the University of Konstanz Canteen. Thereafter, Mampfy boils his gatherings into a soup until he has a nice extract in tabular form which he then serves in little pieces laid out on Twitter. As Bot-O-Cuisine Mampfy of cause prefers to use a Pi as his vehicle. When Mampfy is grown up he would like to inform its users about the general popularity of different dishes and make predictions about line/queue speed.
 
 Mampfy's guts lie open on [Github](https://github.com/petermeissner/unikonstanzmensabot) and his gallery of wisdom shines on [Twitter](https://twitter.com/Mensa_Bot_UniKN/with_replies). He talks about the [University of Konstanz](http://www.uni-konstanz.de/) and its [canteen's menu](https://www.seezeit.com/Essen/Speiseplaene/MensaGiessberg.html) which he never tries because he is bot. Mampfy's direct rival is called [Mensa Uni Konstanz](https://twitter.com/giessberg) who he does not like much because she does follow back although they are colleagues.  
 
 # <img src="/images/wp_trend.png" style="width: 50px; vertical-align:middle;" /> wikipediatrend
+
+[[Package source at Github]](https://github.com/petermeissner/wikipediatrend)  / [[CRAN page]](https://cran.r-project.org/web/packages/wikipediatrend/index.html)
 
 A software package for R that provides access to daily page view statistics of Wikipedia articles.  
 
@@ -38,6 +46,8 @@ devtools::install_github("petermeissner/wikipediatrend")
 
 
 # <img src="/images/hellno50.png" style="width: 50px; vertical-align:middle;" /> hellno
+
+[[Package source at Github]](https://github.com/petermeissner/hellno) / [[CRAN page]](https://cran.r-project.org/web/packages/hellno/index.html)
 
 Base R's `stringsAsFactors` default setting is supposedly the 
   most often complained about piece of code in the whole R infrastructure. 
@@ -73,6 +83,8 @@ devtools::install_github("petermeissner/hellno")
 
 
 # <img src="/images/diffr.png" style="width: 50px; vertical-align:middle;" /> diffr
+
+[[Package source at Github]](https://github.com/petermeissner/diffr)
 
 Diffr is like diff for R only that it is not diff. Diffr is a software package for R providing functions to compare text versions, aligning lines and measure distances between texts.
 
