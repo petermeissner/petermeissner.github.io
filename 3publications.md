@@ -34,19 +34,22 @@ Sieberer, Meißner, Keh, Müller, (2014), Konzeptionalisierung und Messung forma
 
 Shikano, Meißner (2013): *Extracting geographical networks from online network resource: Building a spatial neighbourhood matrix of local municipalities using free online encyclopaedia information*. Annual meeting Arbeitskreises Handlungs- und Entscheidungstheorie
 der Deutschen Vereinigung der Politischen Wissenschaft München, 7.-8. June 2013
-[PDF](http://pmeissner.com/downloads/Shikano_Meissner_2013.pdf)
+| [PDF](http://pmeissner.com/downloads/Shikano_Meissner_2013.pdf)
 
 Meißner, Traunmüller (2012): *The Dynamics of Church Attendance and Voluntary Engagement* Presented at the 4th ECPR Graduate Student Conference Jacobs University, Bremen 4th - 6th July 2012
-[PDF](http://pmeissner.com/downloads/Meissner_Traunmueller_2012.pdf)
+| [PDF](http://pmeissner.com/downloads/Meissner_Traunmueller_2012.pdf)
 
 Meißner, Traunmüller (2010): *Church Attendance and Voluntary Engagement: The Anatomy of a Causal
 Mechanism*. Presented at the SOEP-2010 9th International German Socia-Economic Panel User Conference Berlin June 30 to July 1, 2010. 
-[PDF](http://pmeissner.com/downloads/Meissner_Traunmueller_2010.pdf)
+| [PDF](http://pmeissner.com/downloads/Meissner_Traunmueller_2010.pdf)
 
 Meißner, Traunmüller (2009): *Church Attendance and Voluntary Engagement: The Anatomy of a Causal Mechanism*. Presented at the SOEP@Campus Workshop in Bielefeld September 29 - October 2, 2009 
-[PDF](http://pmeissner.com/downloads/Meissner_Traunmueller_2009.pdf)
+| [PDF](http://pmeissner.com/downloads/Meissner_Traunmueller_2009.pdf)
 
 
+# Presentations
+
+Meißner (2015): *A Fast-Track-Overview on Web Scraping with R*. [UseR! 2015](http://user2015.math.aau.dk) | [PDF](/downloads/user2015_meissner_webscraping.pdf) | [SOURCE](https://raw.githubusercontent.com/petermeissner/pres/master/user2015.Rmd)
 
 
 
