@@ -24,7 +24,7 @@ Bailer, Meißner, Ohmura, Selb (2013): *Seiteneinsteiger im Deutschen Bundestag*
 
 # Journal Articles
 
-Sieberer, Meißner, Keh, Müller, (forthcoming): Parliamentary Rule Changes in Europe: A Research Program. *Legislative Studies Quarterly*
+Sieberer, Meißner, Keh, Müller, (2016): Parliamentary Rule Changes in Europe: A Research Program. *Legislative Studies Quarterly* [link](http://onlinelibrary.wiley.com/doi/10.1111/lsq.12107/abstract)
 
 Sieberer, Meißner, Keh, Müller, (2014), Konzeptionalisierung und Messung formalen Institutionenwandels - Das Beispiel parlamentarische Regeln. *Zeitschrift für Vergleichende Politikwissenschaft* 8(3), 237-262 [link](http://link.springer.com/article/10.1007/s12286-014-0216-7)
 
@@ -49,8 +49,28 @@ Meißner, Traunmüller (2009): *Church Attendance and Voluntary Engagement: The 
 
 # Presentations
 
+Meißner (2016): *Web Data Collection with R -- Course ~~Taster~~ Teaser*. [ECPR Winter School of Methods and Techniques 2016] | [PDF](https://github.com/petermeissner/ecprwsmt16adcr/raw/master/course/00%20teaser/twenty_minute_presentation.pdf) | [SOURCE](https://raw.githubusercontent.com/petermeissner/ecprwsmt16adcr/master/course/00%20teaser/twenty_minute_presentation.Rmd)
+
 Meißner (2015): *A Fast-Track-Overview on Web Scraping with R*. [UseR! 2015](http://user2015.math.aau.dk) | [PDF](/downloads/user2015_meissner_webscraping.pdf) | [SOURCE](https://raw.githubusercontent.com/petermeissner/pres/master/user2015.Rmd)
 
+
+Meißner (2014): *The Legislative Cycle in Germany*. Comparative Agendas Workshop, Universität Konstanz
+
+Shikano, Meißner (2013): *Extracting geographical networks from online network resources:  Building a spatial neighbourhood matrix of local municipalities using free online encyclopaedia information*. Jahrestreffen des AK Handlung- und Entscheidungstheorie der DVPW, LMU München
+
+Meißner (2013): *The Legislative Cycle in Germany*. Parliaments and Parliamentarians Workshop, ETH Zürich
+
+Meißner, Keh (2013): *But they Do Change ... Conceptualizing and Measuring Institutional Change with an Example of Parliamentary Rule Change*. Jahrestreffen der Sektion Methoden des DVPW, Universität Konstanz
+
+Meißner (2013): *HTML and XML -- Language of the Web and Its Companion*. Automating Online Data Collection in R, Universität Zürich
+
+Meißner (2012): *Collecting Information on Legislative Output in Germany*. Facilitating Empirical Research on Political Reforms: Automating Data Collection in R, Universiät Mannheim
+
+Meißner (2012): *The Dynamics of Church Attendance and Voluntary Engagement*. 4th ECPR Graduate Student Conference, Jacobs Universität, Bremen
+
+Meißner (2012): *Political Careers in the German Bundestag*. Parliaments and Parliamentarians Workshop, ETH Zurich
+Meißner (2010): *Church Attendance and Voluntary Engagement:  The Anatomy of a Causal Mechanism*. SOEP User Conference, Berlin
+Meißner (2009): *Church Attendance and Voluntary Engagement:  The Anatomy of a Causal Mechanism*. SOEP@Campus, Bielefeld
 
 
 

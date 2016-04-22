@@ -4,6 +4,21 @@ title: Lost'n'Found
 layout: default
 ---
 
+## Python for data science learning plan
+
+http://www.datasciencecentral.com/m/blogpost?id=6448529%3ABlogPost%3A415409
+
+
+
+## SSH into Github wont work "Agent admitted failure to sign using the key."
+
+https://help.github.com/articles/error-agent-admitted-failure-to-sign/
+
+
+## Generating SSH keys
+
+https://www.howtoforge.com/linux-basics-how-to-install-ssh-keys-on-the-shell
+
 
 ## On dates and times in R (Naom *'The Helpful'* Ross)
 
