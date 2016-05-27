@@ -4,6 +4,38 @@ title: Lost'n'Found
 layout: default
 ---
 
+## R prepared SQL statements / parametrized SQL / R SQL bulk insertion
+
+http://www.inside-r.org/packages/cran/RSQLite/docs/dbSendPreparedQuery
+
+
+## R and MS-SQL
+
+### [Jen Underwood](https://twitter.com/idigdata)
+
+http://www.jenunderwood.com/2015/11/11/r-you-ready-sql-server-2016/
+
+
+## Integrating R with Web Applications
+
+### [Jen Underwood](https://twitter.com/idigdata)
+
+http://www.jenunderwood.com/2015/01/12/part-1-integrating-r/
+http://www.jenunderwood.com/2015/02/23/part-2-r-web-apps/
+
+
+
+## Node.js / Electron / The how and what of JavaScript desktop applications
+
+### [Kristian Poslek](https://medium.com/@bojzi)
+
+https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658#.gizx0a60s
+
+## How long to complete analytics academy course
+
+https://www.quora.com/How-long-does-it-take-to-complete-the-Analytics-Academy-courses-of-Google
+
+
 ## Python for data science learning plan
 
 http://www.datasciencecentral.com/m/blogpost?id=6448529%3ABlogPost%3A415409

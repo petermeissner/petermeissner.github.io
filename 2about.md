@@ -12,6 +12,16 @@ I live in the north part of Germany and currently work for [University of Konsta
 
 For a living in general: I gather data, make it behave, model it and take care that it is presented properly. Some call it data science, I call it getting the job done. My tool set is heavily R-centric but involves everything that comes handy in getting the job done (HTML, Javascript, SQL, PHP, Stata, Latex, Markdown, Word, Excel, SSH, Windows, GNU/Linux, Inkscape, Photoshop, ...).
 
+I have special interest in the following area
+
+  - modelling human behaviour and attitudes 
+  - causal inference
+  - dirty data (Texts, Webpages, PDF, Excel)
+  - user interfaces (R-based CLI, GUI for gathering complex data by domain experts)
+  - data based reporting 
+
+
+
 <script src="javascripts/d3.min.js"></script>
 
 <div style="text-align:center;">

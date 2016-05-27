@@ -7,9 +7,7 @@ try(setwd("c:/Dropbox/petermeissner.github.io"), silent=TRUE)
 
 # script for building webpage with Rrrrrrrrr rrrrr rrr and pandoc
 
-##### FUNCTIONS ===============================================================
 
-source("_make_pages_functions.R")
 
 #### getting MD file names and YAML options ===================================
 message("\n... doing conversion ... \n")
