@@ -4,6 +4,11 @@ title: Lost'n'Found
 layout: default
 ---
 
+## Adding Rcpp to your roxygen2-ized R package and making it work
+
+https://ironholds.org/blog/adding-rcpp-to-an-existing-r-package-documented-with-roxygen2/
+
+
 ## Working with Rcpp StringVector
 
 http://gallery.rcpp.org//articles/working-with-Rcpp-StringVector/
