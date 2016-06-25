@@ -4,6 +4,48 @@ title: Lost'n'Found
 layout: default
 ---
 
+## Working with Rcpp StringVector
+
+http://gallery.rcpp.org//articles/working-with-Rcpp-StringVector/
+
+
+## OpenStreetMap boundaries export - Hurray!
+
+https://osm.wno-edv-service.de/boundaries/
+
+
+
+## rJava
+
+https://www.rforge.net/rJava/
+
+## Five ways to handle Big Data in R
+
+by eoda/Oliver Bracht
+
+http://blog.eoda.de/2013/11/27/five-ways-to-handle-big-data-in-r/
+
+
+## R powered web applications with Shiny (a tutorial and cheat sheet with 40 example apps)
+
+by [Zev Ross](https://twitter.com/zevross?ref_src=twsrc%5Etfw)
+
+[Link](http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/?utm_content=buffer8271b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#style-yourself-with-css)
+
+
+
+
+## The R - HTMLwidgets framework
+
+http://www.htmlwidgets.org/develop_intro.html
+
+
+## Unicode character inspector
+
+http://apps.timwhitlock.info/unicode/inspect
+
+by [Tim Whitlock](https://plus.google.com/106703751121449519322) [@timwhitlock](http://twitter.com/timwhitlock)
+
 ## R prepared SQL statements / parametrized SQL / R SQL bulk insertion
 
 http://www.inside-r.org/packages/cran/RSQLite/docs/dbSendPreparedQuery

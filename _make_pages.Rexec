@@ -1,9 +1,14 @@
 #!/usr/bin/Rscript
 
+##### SessionInfo ============================================================
+
+cat("\n\n", sessionInfo()$R.version$version.string, "\n\n")
+
+
+##### Settings ===============================================================
 message("\n... starting ... \n")
 
 try(setwd("~/Dropbox/petermeissner.github.io"), silent=TRUE)
-try(setwd("c:/Dropbox/petermeissner.github.io"), silent=TRUE)
 
 # script for building webpage with Rrrrrrrrr rrrrr rrr and pandoc
 
@@ -101,7 +106,13 @@ message("\n... logging ... \n")
 write(as.character(Sys.time()), file="_make_pages.Rexec.log", append=TRUE)
 
 
+for(i in 1:20){
+ Sys.sleep(1) 
+ cat(".")
+}
 #### done =====================================================================
 message("\n... done ... \n")
+
+
 
 
