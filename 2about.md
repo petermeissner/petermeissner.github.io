@@ -10,7 +10,7 @@ layout: default
 Hallo, I am Peter Meißner, data enthusiast, R-lover, dog walker and full stack computational social scientist - welcome to my personal page.<br>
 I live in the north part of Germany and currently work for [University of Konstanz (IDEP / Ulrich Sieberer)](http://www.polver.uni-konstanz.de/sieberer/forschung/) and [Konvena](http://konvena.de/) as part time freelance consultant doing data and data analytics infrastructure.
 
-For a living in general: I gather data, make it behave, model it and take care that it is presented properly. Some call it data science, I call it getting the job done. My tool set is heavily R-centric but involves everything that comes handy in getting the job done (HTML, Javascript, SQL, PHP, Stata, Latex, Markdown, Word, Excel, SSH, Windows, GNU/Linux, Inkscape, Photoshop, ...).
+For a living in general: I gather data, make it behave, model it and take care that it is presented properly. Some call it data science, I call it getting the job done. My tool set is heavily R-centric but involves everything that comes handy in getting the job done (R, Rcpp, Shiny, HTML, Javascript, SQL, PHP, Stata, Latex, Markdown, Word, Excel, SSH, Windows, GNU/Linux, Inkscape, Photoshop, ...).
 
 I have special interest in the following area
 
