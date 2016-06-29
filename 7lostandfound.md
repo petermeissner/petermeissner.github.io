@@ -4,6 +4,11 @@ title: Lost'n'Found
 layout: default
 ---
 
+## R: Running something within global environment but *with* options, working directory, ...
+
+https://cran.rstudio.com/web/packages/withr/withr.pdf
+
+
 ## Adding Rcpp to your roxygen2-ized R package and making it work
 
 https://ironholds.org/blog/adding-rcpp-to-an-existing-r-package-documented-with-roxygen2/
