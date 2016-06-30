@@ -4,6 +4,12 @@ title: Lost'n'Found
 layout: default
 ---
 
+## SparkR (social science)
+
+https://github.com/UrbanInstitute/spark-social-science
+
+
+
 ## R: Running something within global environment but *with* options, working directory, ...
 
 https://cran.rstudio.com/web/packages/withr/withr.pdf
