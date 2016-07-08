@@ -4,6 +4,14 @@ title: Lost'n'Found
 layout: default
 ---
 
+## What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text
+
+by [David C. Zentgraf](https://twitter.com/deceze) : 
+
+http://kunststube.net/encoding/
+
+
+
 ## SparkR (social science)
 
 https://github.com/UrbanInstitute/spark-social-science
