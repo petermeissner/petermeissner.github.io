@@ -4,6 +4,12 @@ title: Lost'n'Found
 layout: default
 ---
 
+
+## R/Travis multiple OS testing
+
+https://ropensci.org/blog/2016/07/12/travis-osx
+
+
 ## Turtle graphics with R
 
 by Thorsten Pohlert : https://cran.r-project.org/web/packages/trend/index.html
