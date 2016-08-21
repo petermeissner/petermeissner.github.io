@@ -20,7 +20,7 @@ This is a CRANlike package repository but its mine and hosts stable versions of 
 - CRAN is just a simple web page with a specific file structure
 - R can install packges - out of the box - from anything structured like CRAN
 - Github lets you host web pages (easily, for no money, and on scale)
-- **ergo everyone can have one own personal CRAN**
+- **ergo: everyone can have one's own personal CRAN**
 
 ... and building a package that puts together the needed file structure this thing is very very easy to maintain and using my own [dratful](https://github.com/petermeissner/dratful) package adding and updating packages is a one-liner. 
 
