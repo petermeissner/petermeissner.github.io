@@ -4,6 +4,16 @@ title: Software
 layout: default
 ---
 
+# Dratful - an convenience R-package to make your drat ful
+
+[https://github.com/petermeissner/dratful](dratful)
+
+This package wraps up several R packages: drat, devtools, git2r and getPass() to make it really really easy - i.e. one line of coded - to build your package and if succesful throw it out onto you very own R-package repository (a CRANlike repository hosted on Github). 
+
+
+# My personal R-package repository
+
+- [https://petermeissner.github.io/drat/](my personal R-package repository)
 
 
 
