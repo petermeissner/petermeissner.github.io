@@ -6,14 +6,33 @@ layout: default
 
 # Dratful - an convenience R-package to make your drat ful
 
-[dratful](https://github.com/petermeissner/dratful)
+[[dratful]](https://github.com/petermeissner/dratful)
 
 This package wraps up several R packages: drat, devtools, git2r and getPass() to make it really really easy - i.e. one line of coded - to build your package and if succesful throw it out onto you very own R-package repository (a CRANlike repository hosted on Github). 
 
 
 # My personal R-package repository
 
-- [my personal R-package repository](https://petermeissner.github.io/drat/)
+- [[my personal R-package repository]](https://petermeissner.github.io/drat/)
+
+This is a CRANlike package repository but its mine and hosts stable versions of my packages. Thanks to the efforts of Dirk Eddelbuettel pointing out and publicizing the idea that 
+
+- CRAN is just a simple web page with a specific file structure
+- R can install packges - out of the box - from anything structured like CRAN
+- Github lets you host web pages (easily, for no money, and on scale)
+- **ergo everyone can have one own personal CRAN**
+
+... and building a package that puts together the needed file structure this thing is very very easy to maintain and using my own [dratful](https://github.com/petermeissner/dratful) package adding and updating packages is a one-liner. 
+
+Installation from the repo works like that:
+
+```r
+install.packages(
+  pkgs  = "package_name",
+  repos = c( options("repos")$repos, "path_to_repository")
+)
+```
+
 
 
 
