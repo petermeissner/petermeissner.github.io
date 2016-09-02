@@ -4,6 +4,16 @@ title: Lost'n'Found
 layout: default
 ---
 
+## Developing HTMLwidgets
+
+http://www.htmlwidgets.org/develop_intro.html
+
+
+## Inline graphics
+
+https://github.com/htmlwidgets/sparkline
+
+
 
 ## R/Travis multiple OS testing
 
