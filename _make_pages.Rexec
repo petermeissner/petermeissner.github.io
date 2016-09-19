@@ -98,7 +98,7 @@ uploadToServer( "magnify.cur", "pmeissner/magnify.cur")
 # upload_folder("images")
 # upload_folder("stylesheets")
 # upload_folder("downloads")
-# upload_folder("javascripts")
+ upload_folder("javascripts")
 
 
 #### log ======================================================================
