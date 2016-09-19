@@ -170,7 +170,7 @@ svg.append('text')
   .attr('y',legendY + 10)
   .text('More');
 
-d3.json('data.json',function(error,data){
+d3.json('data/suunto_data.json',function(error,data){
   if (error) throw error;
 
 
