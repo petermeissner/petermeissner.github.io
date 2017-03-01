@@ -4,6 +4,14 @@ title: Lost'n'Found
 layout: default
 ---
 
+## This crazy little thing called scales (D3js scales)
+
+by [Jerome Cukier](https://twitter.com/jcukier)
+
+http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/
+
+
+
 ## Shiny: Errors and Validation
 
 http://shiny.rstudio.com/articles/validation.html
