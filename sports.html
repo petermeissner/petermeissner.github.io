@@ -11,17 +11,7 @@
 		-->
     <link rel="stylesheet" href="stylesheets/highlight_js/styles/default.css">
     <script src="stylesheets/highlight_js/highlight.pack.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/jquery.magnifier.js">
-   /***********************************************
-    * jQuery Image Magnify- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-    * Please keep this notice intact
-    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-    ***********************************************/
-    </script>
-    
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
 <script>
@@ -32,7 +22,6 @@
 
   ga('create', 'UA-77846833-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
   </head>
@@ -56,124 +45,17 @@
            <a href="https://www.amazon.de/gp/registry/wishlist/3B6Q36DQX2V7K">Buy Me Shiny Stuff</a><br>
         </p>
       </header>
-      <section>
-        <h1>Dratful - an convenience R-package to make your drat ful</h1>
-
-<p><a href="https://github.com/petermeissner/dratful">[dratful]</a></p>
-
-<p>This package wraps up several R packages: drat, devtools, git2r and getPass() to make it really really easy - i.e. one line of coded - to build your package and if succesful throw it out onto you very own R-package repository (a CRANlike repository hosted on Github). </p>
-
-<h1>My personal R-package repository</h1>
-
-<ul>
-<li><a href="https://petermeissner.github.io/drat/">[my personal R-package repository]</a></li>
-</ul>
-
-<p>This is a CRANlike package repository but its mine and hosts stable versions of my packages. </p>
-
-<p>Thanks to the efforts of Dirk Eddelbuettel pointing out and publicizing the idea that </p>
-
-<ul>
-<li>CRAN is just a simple web page with a specific file structure</li>
-<li>R can install packges - out of the box - from anything structured like CRAN</li>
-<li>Github lets you host web pages (easily, for no money, and on scale)</li>
-<li><strong>ergo: everyone can have one&#39;s own personal CRAN</strong></li>
-</ul>
-
-<p>&hellip; this is very easy to maintain. Using my own <a href="https://github.com/petermeissner/dratful">dratful</a> package for adding and updating packages in fact becomes a one-liner. </p>
-
-<p>Installation from the repo works like that:</p>
-
-<pre><code class="r">install.packages(
-  pkgs  = &quot;package_name&quot;,
-  repos = c( options(&quot;repos&quot;)$repos, &quot;path_to_repository&quot;)
-)
-</code></pre>
-
-<h1><img src="/images/robotstxt.png" style="width: 50px; vertical-align:middle;" /> robotstxt</h1>
-
-<p><a href="https://github.com/petermeissner/robotstxt">[Package source at Github]</a></p>
-
-<p>A software package for R that provides robots.txt file parsing and bot permission checking. </p>
-
-<p>Find out more by visiting robotstxt&#39;s Github repository and browse through its <a href="https://github.com/petermeissner/robotstxt">README</a>.</p>
-
-<pre><code class="r"># install from Github
-devtools::install_github(&quot;petermeissner/robotstxt&quot;)
-</code></pre>
-
-<h1><img src="/images/unikonstanzmensabot.jpg" style="width: 50px; vertical-align:middle;" /> Uni-Konstanz-Mensa/Canteen-Twitter-Bot</h1>
-
-<p><a href="https://github.com/petermeissner/unikonstanzmensabot">[Package source at Github]</a></p>
-
-<p>This sturdy little fellow &ndash; called Mampf-Bot or Mampfy by his friends &ndash; daily moves out to do his tasks. First, Mampfy fetches fresh  menus from the University of Konstanz Canteen. Thereafter, Mampfy boils his gatherings into a soup until he has a nice extract in tabular form which he then serves in little pieces laid out on Twitter. As Bot-O-Cuisine Mampfy of cause prefers to use a Pi as his vehicle. When Mampfy is grown up he would like to inform its users about the general popularity of different dishes and make predictions about line/queue speed.</p>
-
-<p>Mampfy&#39;s guts lie open on <a href="https://github.com/petermeissner/unikonstanzmensabot">Github</a> and his gallery of wisdom shines on <a href="https://twitter.com/Mensa_Bot_UniKN/with_replies">Twitter</a>. He talks about the <a href="http://www.uni-konstanz.de/">University of Konstanz</a> and its <a href="https://www.seezeit.com/Essen/Speiseplaene/MensaGiessberg.html">canteen&#39;s menu</a> which he never tries because he is bot. Mampfy&#39;s direct rival is called <a href="https://twitter.com/giessberg">Mensa Uni Konstanz</a> who he does not like much because she does follow back although they are colleagues.  </p>
-
-<h1><img src="/images/wp_trend.png" style="width: 50px; vertical-align:middle;" /> wikipediatrend</h1>
-
-<p><a href="https://github.com/petermeissner/wikipediatrend">[Package source at Github]</a>  / <a href="https://cran.r-project.org/web/packages/wikipediatrend/index.html">[CRAN page]</a></p>
-
-<p>A software package for R that provides access to daily page view statistics of Wikipedia articles.  </p>
-
-<p>Find out more by browsing the <a href="https://github.com/petermeissner/wikipediatrend">README</a> or have a look at the <a href="https://cran.r-project.org/web/packages/wikipediatrend/vignettes/using-wikipediatrend.html">vignette</a>.</p>
-
-<pre><code class="r"># install from CRAN
-install.packages(&quot;wikipediatrend&quot;)
-
-# install from Github
-devtools::install_github(&quot;petermeissner/wikipediatrend&quot;)
-</code></pre>
-
-<h1><img src="/images/hellno50.png" style="width: 50px; vertical-align:middle;" /> hellno</h1>
-
-<p><a href="https://github.com/petermeissner/hellno">[Package source at Github]</a> / <a href="https://cran.r-project.org/web/packages/hellno/index.html">[CRAN page]</a></p>
-
-<p>Base R&#39;s <code>stringsAsFactors</code> default setting is supposedly the 
-  most often complained about piece of code in the whole R infrastructure. 
-  A search through the source code of all CRAN packages in December 2015 (<a href="https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Acran+stringsAsFactors&amp;type=Code">Link</a>)
-  resulted in 3,492 mentions of <code>stringsAsFactors</code>. Most of the time these explicit 
-  mentions where found within calls to <code>data.frame()</code> or <code>as.data.frame()</code> and 
-  simply set the value to <code>FALSE</code>. </p>
-
-<p>The hellno package provides an explicit solution to the problem without 
-  changing R itself or having to mess around with options. One could use e.g.:
-  <code>options(&quot;stringsAsFactors&quot; = FALSE)</code> to re-set the global default behavior. 
-  Instead hellno tackles the problem from another direction, namely by 
-  providing alternative implementations of <code>data.frame()</code> and <code>as.data.frame()</code>. 
-  Those <em>re</em>-implementations are in fact simple wrappers around base R&#39;s very own 
-  <code>data.frame()</code> and <code>as.data.frame()</code> with <code>stringAsFactors</code> option set to 
-  <code>HELLNO</code> - which in turn equals to <code>FALSE</code> and gives the package its name.</p>
-
-<p>Some info material and crediting for &#39;hellno&#39; as catch phrase - thanks Clint?: </p>
-
-<ul>
-<li><a href="https://twitter.com/zenrhino/status/623226883644129280">Some girls and Clint</a></li>
-<li><a href="http://rtalk.org/strings-as-factors_hell-no_hex-sticker/">THE (official) LOGO</a></li>
-<li><a href="https://twitter.com/search?q=stringsAsFactors%3DHELLNO&amp;src=typd">twitter-search</a> </li>
-<li><a href="https://github.com/nutterb/sillylogic/blob/master/README.md">sillylogic</a> (The one and only package with hand-crafted logical constants)</li>
-</ul>
-
-<pre><code class="r"># install from CRAN
-install.packages(&quot;hellno&quot;)
-
-# install from Github
-devtools::install_github(&quot;petermeissner/hellno&quot;)
-</code></pre>
-
-<h1><img src="/images/diffr.png" style="width: 50px; vertical-align:middle;" /> diffr</h1>
-
-<p><a href="https://github.com/petermeissner/diffr">[Package source at Github]</a></p>
-
-<p>Diffr is like diff for R only that it is not diff. Diffr is a software package for R providing functions to compare text versions, aligning lines and measure distances between texts.</p>
-
-<p>Find out more by visiting diffr&#39;s Github repository and browsing its <a href="https://github.com/petermeissner/diffr">README</a>.</p>
-
-<pre><code class="r"># install from Github
-devtools::install_github(&quot;petermeissner/diffr&quot;)
-</code></pre>
-
-      </section>
+      
+      <div>
+    <script>
+    var my_json = null ;
+    $.getJSON("data/suunto_data.json", function(json) {
+      console.log(json);
+      my_json = json;
+    });
+    </script>
+    </div>
+      
       <footer>
         <p><small>Based on theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
