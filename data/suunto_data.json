@@ -31,7 +31,7 @@
     "BatteryChargeAtStart": "0.97999999999999998",
     "BatteryCharge": "0.92000000000000004",
     "DistanceBeforeCalibrationChange": "0",
-    "DateTime": "2015-01-07T19:58:00"
+    "DateTime": "2017-03-04T06:58:00"
   },
   {
     "Duration": "2780.5",
@@ -304,5 +304,39 @@
     "BatteryCharge": "0.94000000000000006",
     "DistanceBeforeCalibrationChange": "0",
     "DateTime": "2017-03-06T08:12:30"
+  },
+  {
+    "Duration": "2741.4000000000001",
+    "Ascent": "7",
+    "Descent": "0",
+    "AscentTime": "78",
+    "DescentTime": "0",
+    "RecoveryTime": "58560",
+    "Speed.Avg": "2.1027777777777779",
+    "Speed.Max": "3.4388888888888891",
+    "Speed.MaxTime": "43.383000000000003",
+    "Cadence.Avg": "1.2166666666666666",
+    "Cadence.Max": "1.3833333333333333",
+    "Cadence.MaxTime": "1502.3820000000001",
+    "Altitude.Max": "77",
+    "Altitude.Min": "50",
+    "Altitude.MaxTime": "1355.3820000000001",
+    "Altitude.MinTime": "2605.3820000000001",
+    "HR.Avg": "0",
+    "HR.Max": "0",
+    "HR.Min": "0",
+    "HR.MaxTime": "0",
+    "HR.MinTime": "0",
+    "PeakTrainingEffect": "3.6000000000000001",
+    "ActivityType": "3",
+    "Activity": "Laufen",
+    "Distance": "5762",
+    "LogItemCount": "4866",
+    "Energy": "2495332.8000000003",
+    "TimeToFirstFix": "212",
+    "BatteryChargeAtStart": "0.97999999999999998",
+    "BatteryCharge": "0.92000000000000004",
+    "DistanceBeforeCalibrationChange": "0",
+    "DateTime": "2015-01-07T19:58:00"
   }
 ]
