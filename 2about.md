@@ -17,7 +17,7 @@ I live and work near Hamburg, Germany.
 <div style="text-align:center;">
 <img height="267" src="images/petermeissner.jpg">
 &nbsp;&nbsp;&nbsp;
-<img src="https://maps.googleapis.com/maps/api/staticmap?center=50.368608, 11&zoom=4&size=200x267&maptype=terrain&markers=color:blue%7Clabel:Buchholz%7CBuchholz&style=feature:road|visibility:off&style=feature:landscape|visibility:off&style=feature:poi|visibility:off">
+<img src="https://maps.googleapis.com/maps/api/staticmap?center=50.368608,11&zoom=4&size=200x267&maptype=terrain&markers=color:blue%7CHamburg&style=feature:road|visibility:off&style=feature:landscape|visibility:off&style=feature:poi|visibility:off">
 &nbsp;&nbsp;&nbsp;
 <svg width="200" height="267" style="border: solid 1px black"></svg>
 
