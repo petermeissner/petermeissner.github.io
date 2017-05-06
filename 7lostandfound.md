@@ -6,6 +6,13 @@ author: peter meißner
 
  
 
+Symbolic Links on Windows
+-------------------------
+
+https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
+
+ 
+
 Add git branch name to bash prompt
 ----------------------------------
 
@@ -197,7 +204,8 @@ http://ropengov.github.io/projects/
 -------------------------
 
 -   [Social sciences](https://cran.r-project.org/web/views/SocialSciences.html)
-    - find all those different regression models
+
+    -   find all those different regression models
 
 -   [Web
     technologies](https://cran.r-project.org/web/views/WebTechnologies.html) -
@@ -207,7 +215,8 @@ http://ropengov.github.io/projects/
 -   [Official
     Statistics](https://cran.r-project.org/web/views/OfficialStatistics.html) -
     more sexy than you think - record linkage - seasonal adjustment - weighting
-    - small area estimation - imputation
+
+    -   small area estimation - imputation
 
 -   [Machine
     Learning](https://cran.r-project.org/web/views/MachineLearning.html)
@@ -250,8 +259,8 @@ Wilson et al. (2014): *Best Practices for Scientific Computing*. PLoS Biol 12(1)
 >   write more reliable and maintainable code with less effort. We describe a
 >   set of best practices for scientific software development that have solid
 >   foundations in research and experience, and that improve scientists’
->   productivity and the reliability of their software. [...]
->   [PDF](http://www.plosbiology.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pbio.1001745&representation=PDF)
+>   productivity and the reliability of their software.
+>   [...][PDF](http://www.plosbiology.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pbio.1001745&representation=PDF)
 >   [DOI](doi:10.1371/journal.pbio.1001745)
 
 Danilo Freire (2015-12-08) *Peering at Open Peer Review*. The Political Methodologist
@@ -270,8 +279,8 @@ Danilo Freire (2015-12-08) *Peering at Open Peer Review*. The Political Methodol
 >   vast majority of them (80%) think peer review is a useful tool to keep
 >   themselves up to date with cutting-edge research (Djupe 2015, 349). But do
 >   these figures suggest that journal editors can rest upon their laurels and
->   leave the system as it is? [...]
->   [LINK](http://thepoliticalmethodologist.com/2015/12/08/peering-at-open-peer-review/)
+>   leave the system as it is?
+>   [...][LINK](http://thepoliticalmethodologist.com/2015/12/08/peering-at-open-peer-review/)
 
 Checking for non-ASCII characters in R
 --------------------------------------
