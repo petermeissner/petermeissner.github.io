@@ -6,6 +6,28 @@ author: peter meißner
 
  
 
+ 
+
+ 
+
+Apache mod_rewrite
+------------------
+
+-   http://mod-rewrite-cheatsheet.com/
+
+-   https://httpd.apache.org/docs/trunk/rewrite/remapping.html
+
+-   http://www.askapache.com/htaccess/modrewrite-tips-tricks/
+
+ 
+
+API in PHP
+----------
+
+http://coreymaynard.com/blog/creating-a-restful-api-with-php/
+
+ 
+
 Symbolic Links on Windows
 -------------------------
 
