@@ -6,10 +6,6 @@ author: peter meißner
 
  
 
- 
-
- 
-
 Apache mod_rewrite
 ------------------
 
