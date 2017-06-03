@@ -6,6 +6,13 @@ author: peter meißner
 
  
 
+Git Server
+----------
+
+-   http://t3n.de/news/git-eigener-git-server-544264/
+
+ 
+
 Apache mod_rewrite
 ------------------
 
@@ -27,14 +34,14 @@ http://coreymaynard.com/blog/creating-a-restful-api-with-php/
 Symbolic Links on Windows
 -------------------------
 
-https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
+-   https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
 
  
 
 Add git branch name to bash prompt
 ----------------------------------
 
-https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt
+-   https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt
 
  
 
@@ -43,38 +50,55 @@ This crazy little thing called scales (D3js scales)
 
 by [Jerome Cukier](https://twitter.com/jcukier)
 
-http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/
+ 
+
+-   http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/
+
+ 
 
 Shiny: Errors and Validation
 ----------------------------
 
-http://shiny.rstudio.com/articles/validation.html
+-   http://shiny.rstudio.com/articles/validation.html
+
+ 
 
 Developing HTMLwidgets
 ----------------------
 
-http://www.htmlwidgets.org/develop_intro.html
+-   http://www.htmlwidgets.org/develop_intro.html
+
+ 
 
 Inline graphics
 ---------------
 
-https://github.com/htmlwidgets/sparkline
+-   https://github.com/htmlwidgets/sparkline
+
+ 
 
 R/Travis multiple OS testing
 ----------------------------
 
-https://ropensci.org/blog/2016/07/12/travis-osx
+-   https://ropensci.org/blog/2016/07/12/travis-osx
+
+ 
 
 Turtle graphics with R
 ----------------------
 
-by Thorsten Pohlert : https://cran.r-project.org/web/packages/trend/index.html
+-   by Thorsten Pohlert :
+    https://cran.r-project.org/web/packages/trend/index.html
+
+ 
 
 What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text
 ---------------------------------------------------------------------------------------------------------------
 
 by [David C. Zentgraf](https://twitter.com/deceze) :
 http://kunststube.net/encoding/
+
+ 
 
 SparkR (social science)
 -----------------------
