@@ -5,6 +5,14 @@ author: peter meißner
 ---
 
 
+Famous Gang of Four Design Patterns explained with Javascript 
+
+For all who find JS much more readable than C++/Java-likes - e.g. me.
+
+- http://www.dofactory.com/javascript/design-patterns
+
+
+
 
 Disabling Linux Mint Shortcuts
 ------------------------------
