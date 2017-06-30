@@ -4,7 +4,27 @@ title: "Lost'n'Found"
 author: peter meißner
 ---
 
- 
+
+
+Disabling Linux Mint Shortcuts
+------------------------------
+
+(Because they interfere with other shortcuts e.g. from Rstudio)
+
+- http://granjow.net/mint-cinnamon.html
+
+
+
+
+Introduction to UNIX - "The Unix Workbench"
+---------------------------------------------
+
+
+- http://seankross.com/the-unix-workbench/
+
+
+
+
 
 Git Server
 ----------

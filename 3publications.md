@@ -37,16 +37,18 @@ Springer VS
 Journal Articles
 ================
 
-Ohmura, Bailer Meiβner, Selb (2017): Party animals, career changers and other pathways into parliament. Western European Politics [link](http://dx.doi.org/10.1080/01402382.2017.1323485)
+Ohmura, Bailer Meiβner, Selb (2017): Party animals, career changers and other pathways into parliament. Western European Politics [link](https://doi.org/10.1080/01402382.2017.1323485)
 
 Sieberer, Meißner, Keh, Müller, (2016): Parliamentary Rule Changes in Europe: A
 Research Program. *Legislative Studies Quarterly*
-[link](http://onlinelibrary.wiley.com/doi/10.1111/lsq.12107/abstract)
+[link](https://doi.org/10.1111/lsq.12106)
 
 Sieberer, Meißner, Keh, Müller, (2014), Konzeptionalisierung und Messung
 formalen Institutionenwandels - Das Beispiel parlamentarische Regeln.
 *Zeitschrift für Vergleichende Politikwissenschaft* 8(3), 237-262
-[link](http://link.springer.com/article/10.1007/s12286-014-0216-7)
+[link](https://doi.org/10.1007/s12286-014-0216-7)
+
+ 
 
 Unpublished Manuscripts
 =======================
