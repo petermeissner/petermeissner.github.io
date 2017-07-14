@@ -25,6 +25,7 @@ The Net Ninja - Youtube Channel
 
 
 
+
 Famous Gang of Four Design Patterns explained with Javascript 
 --------------------------------------------------------------
 
@@ -32,6 +33,7 @@ Famous Gang of Four Design Patterns explained with Javascript
 For all who find JS much more readable than C++/Java-likes - e.g. me.
 
 - http://www.dofactory.com/javascript/design-patterns
+
 
 
 
@@ -63,6 +65,8 @@ Git Server
 
  
 
+
+
 Apache mod_rewrite
 ------------------
 
@@ -74,10 +78,14 @@ Apache mod_rewrite
 
  
 
+
+
 API in PHP
 ----------
 
-http://coreymaynard.com/blog/creating-a-restful-api-with-php/
+- http://coreymaynard.com/blog/creating-a-restful-api-with-php/
+
+
 
  
 
@@ -86,12 +94,16 @@ Symbolic Links on Windows
 
 -   https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
 
+
+
  
 
 Add git branch name to bash prompt
 ----------------------------------
 
 -   https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt
+
+
 
  
 
@@ -100,9 +112,9 @@ This crazy little thing called scales (D3js scales)
 
 by [Jerome Cukier](https://twitter.com/jcukier)
 
- 
-
 -   http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/
+
+
 
  
 
@@ -111,12 +123,18 @@ Shiny: Errors and Validation
 
 -   http://shiny.rstudio.com/articles/validation.html
 
+
+
+
  
 
 Developing HTMLwidgets
 ----------------------
 
 -   http://www.htmlwidgets.org/develop_intro.html
+
+
+
 
  
 
@@ -125,12 +143,18 @@ Inline graphics
 
 -   https://github.com/htmlwidgets/sparkline
 
+
+
+
  
 
 R/Travis multiple OS testing
 ----------------------------
 
 -   https://ropensci.org/blog/2016/07/12/travis-osx
+
+
+
 
  
 
@@ -140,6 +164,9 @@ Turtle graphics with R
 -   by Thorsten Pohlert :
     https://cran.r-project.org/web/packages/trend/index.html
 
+
+
+
  
 
 What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text
@@ -148,6 +175,9 @@ What Every Programmer Absolutely, Positively Needs To Know About Encodings And C
 by [David C. Zentgraf](https://twitter.com/deceze) :
 http://kunststube.net/encoding/
 
+
+
+
  
 
 SparkR (social science)
@@ -155,20 +185,32 @@ SparkR (social science)
 
 https://github.com/UrbanInstitute/spark-social-science
 
+
+
+
 R: Running something within global environment but *with* options, working directory, ...
 -----------------------------------------------------------------------------------------
 
 https://cran.rstudio.com/web/packages/withr/withr.pdf
+
+
+
 
 Adding Rcpp to your roxygen2-ized R package and making it work
 --------------------------------------------------------------
 
 https://ironholds.org/blog/adding-rcpp-to-an-existing-r-package-documented-with-roxygen2/
 
+
+
+
 Working with Rcpp StringVector
 ------------------------------
 
 http://gallery.rcpp.org//articles/working-with-Rcpp-StringVector/
+
+
+
 
 OpenStreetMap boundaries export - Hurray!
 -----------------------------------------
@@ -180,12 +222,18 @@ rJava
 
 https://www.rforge.net/rJava/
 
+
+
+
 Five ways to handle Big Data in R
 ---------------------------------
 
 by eoda/Oliver Bracht
 
 http://blog.eoda.de/2013/11/27/five-ways-to-handle-big-data-in-r/
+
+
+
 
 R powered web applications with Shiny (a tutorial and cheat sheet with 40 example apps)
 ---------------------------------------------------------------------------------------
@@ -194,18 +242,27 @@ by [Zev Ross](https://twitter.com/zevross?ref_src=twsrc%5Etfw)
 
 [Link](http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/?utm_content=buffer8271b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#style-yourself-with-css)
 
+
+
+
 The R - HTMLwidgets framework
 -----------------------------
 
-http://www.htmlwidgets.org/develop_intro.html
+-http://www.htmlwidgets.org/develop_intro.html
+
+
+
 
 Unicode character inspector
 ---------------------------
 
-http://apps.timwhitlock.info/unicode/inspect
+- http://apps.timwhitlock.info/unicode/inspect
 
 by [Tim Whitlock](https://plus.google.com/106703751121449519322)
 [@timwhitlock](http://twitter.com/timwhitlock)
+
+
+
 
 R prepared SQL statements / parametrized SQL / R SQL bulk insertion
 -------------------------------------------------------------------
