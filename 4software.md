@@ -4,37 +4,64 @@ title: Software
 layout: default
 ---
 
-# Dratful - an convenience R-package to make your drat ful
+# <img src="/images/rtext50.png" style="width: 50px; vertical-align:middle;" /> rtext
 
-[[dratful]](https://github.com/petermeissner/dratful)
+[[Package source at Github]](https://github.com/petermeissner/rtext)  / [[CRAN page]](https://cran.r-project.org/web/packages/rtext/index.html)
 
-This package wraps up several R packages: drat, devtools, git2r and getPass() to make it really really easy - i.e. one line of coded - to build your package and if succesful throw it out onto you very own R-package repository (a CRANlike repository hosted on Github). 
+R6 Objects for Text and Data
+
+For natural language processing and analysis of qualitative text coding structures which provide a way to bind together text and text data are fundamental. The package provides such a structure and accompanying methods in form of R6 objects. The 'rtext' class allows for text handling and text coding (character or regex based) including data updates on text transformations as well as aggregation on various levels. Furthermore, the usage of R6 enables inheritance and passing by reference which should enable 'rtext' instances to be used as back-end for R based graphical text editors or text coding GUIs.
+
+This software was created as part of the "Institutional Design in Western European Democracies" research project, funded by DFG (Deutsche Forschungsgemeinschaft), lead by Ulrich Sieberer and based at University Konstanz.
+
+Meißner P (2016). rtext. R package version 0.1.20, <URL: https://github.com/petermeissner/rtext>.
+
+Sieberer U, Meißner P, Keh J and Müller W (2016). "Mapping and Explaining Parliamentary Rule Changes in Europe: A Research Program." Legislative Studies Quarterly, 41(1), pp. 61-88. ISSN 1939-9162, doi: 10.1111/lsq.12106 (URL: http://doi.org/10.1111/lsq.12106), <URL: http://dx.doi.org/10.1111/lsq.12106>.
 
 
-# My personal R-package repository
 
-- [[my personal R-package repository]](https://petermeissner.github.io/drat/)
+# <img src="/images/stringb.png" style="width: 50px; vertical-align:middle;" /> stringb
 
-This is a CRANlike package repository but its mine and hosts stable versions of my packages. 
+[[Package source at Github]](https://github.com/petermeissner/stringb)  / [[CRAN page]](https://cran.r-project.org/web/packages/stringb/index.html)
 
-Thanks to the efforts of Dirk Eddelbuettel pointing out and publicizing the idea that 
 
-- CRAN is just a simple web page with a specific file structure
-- R can install packges - out of the box - from anything structured like CRAN
-- Github lets you host web pages (easily, for no money, and on scale)
-- **ergo: everyone can have one's own personal CRAN**
+Convenient Base R String Handling
 
-... this is very easy to maintain. Using my own [dratful](https://github.com/petermeissner/dratful) package for adding and updating packages in fact becomes a one-liner. 
+Base R already ships with string handling capabilities 'out-of-the-box' but lacks streamlined function names and workflow. The 'stringi' ('stringr') package on the other hand has well named functions, extensive Unicode support and allows for a streamlined workflow. On the other hand it adds dependencies and regular expression interpretation between base R functions and 'stringi' functions might differ. This packages aims at providing a solution to the use case of unwanted dependencies on the one hand but the need for streamlined text processing on the other. The packages' functions are solely based on wrapping base R functions into 'stringr'/'stringi' like function names. Along the way it adds one or two extra functions and last but not least provides all functions as generics, therefore allowing for adding methods for other text structures besides plain character vectors.
 
-Installation from the repo works like that:
 
-```r
-install.packages(
-  pkgs  = "package_name",
-  repos = c( options("repos")$repos, "path_to_repository")
-)
-```
 
+# <img src="/images/diffr.png" style="width: 50px; vertical-align:middle;" /> diffrprojectswidget
+
+[[Package source at Github]](https://github.com/petermeissner/diffrprojectswidget)  / [[CRAN page]](https://cran.r-project.org/web/packages/diffrprojectswidget/index.html)
+
+
+Interactive visualizations and tabulations for diffrprojects. All presentations are based on the htmlwidgets framework allowing for interactivity via HTML and Javascript, Rstudio viewer integration, RMarkdown integration, as well as Shiny compatibility.
+
+This software was created as part of the "Institutional Design in Western European Democracies" research project, funded by DFG (Deutsche Forschungsgemeinschaft), lead by Ulrich Sieberer and based at University Konstanz.
+
+
+Meißner P (2016). diffrprojectswidget. R package version 0.1.5, <URL: https://github.com/petermeissner/rtext>.
+
+Sieberer U, Meißner P, Keh J and Müller W (2016). "Mapping and Explaining Parliamentary Rule Changes in Europe: A Research Program." Legislative Studies Quarterly, 41(1), pp. 61-88. ISSN 1939-9162, doi: 10.1111/lsq.12106 (URL: http://doi.org/10.1111/lsq.12106), <URL: http://dx.doi.org/10.1111/lsq.12106>.
+
+
+
+
+# <img src="/images/diffr.png" style="width: 50px; vertical-align:middle;" /> diffrprojects
+
+[[Package source at Github]](https://github.com/petermeissner/diffrprojects)  / [[CRAN page]](https://cran.r-project.org/web/packages/diffrprojects/index.html)
+
+
+Projects for Text Version Comparison and Analytics in R
+
+Provides data structures and methods for manual as wells as automated R based text comparison and text as well as change coding.
+
+This software was created as part of the "Institutional Design in Western European Democracies" research project, funded by DFG (Deutsche Forschungsgemeinschaft), lead by Ulrich Sieberer and based at University Konstanz.
+
+Meißner P (2016). diffrprojectswidget. R package version 0.1.5, <URL: https://github.com/petermeissner/rtext>.
+
+Sieberer U, Meißner P, Keh J and Müller W (2016). "Mapping and Explaining Parliamentary Rule Changes in Europe: A Research Program." Legislative Studies Quarterly, 41(1), pp. 61-88. ISSN 1939-9162, doi: 10.1111/lsq.12106 (URL: http://doi.org/10.1111/lsq.12106), <URL: http://dx.doi.org/10.1111/lsq.12106>.
 
 
 
