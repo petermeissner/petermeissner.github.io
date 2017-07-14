@@ -5,7 +5,29 @@ author: peter meißner
 ---
 
 
+
+
+
+The Coding Train - Fun and Art with Coding
+------------------------------------------
+
+- https://www.youtube.com/user/shiffman
+
+
+
+
+
+The Net Ninja - Youtube Channel
+-------------------------------
+
+- https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists
+
+
+
+
 Famous Gang of Four Design Patterns explained with Javascript 
+--------------------------------------------------------------
+
 
 For all who find JS much more readable than C++/Java-likes - e.g. me.
 
