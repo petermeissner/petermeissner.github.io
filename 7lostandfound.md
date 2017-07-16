@@ -5,6 +5,16 @@ author: peter meißner
 ---
 
 
+Rstudio Server Administration
+--------------------------------------
+
+- https://www.rstudio.com/products/rstudio/download-server/
+- https://support.rstudio.com/hc/en-us/articles/200532327-Configuring-the-Server
+- https://support.rstudio.com/hc/en-us/articles/200552316-Configuring-the-Server
+- https://support.rstudio.com/hc/en-us/articles/200552326-Configuring-the-Server/
+- http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html
+
+
 
 
 
