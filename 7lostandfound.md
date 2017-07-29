@@ -6,8 +6,19 @@ author: peter meißner
 
  
 
-Plants with R 
---------------
+Setting up Shiny Server
+-----------------------
+
+ 
+
+-   https://qualityandinnovation.com/2015/12/09/deploying-your-very-own-shiny-server/
+
+ 
+
+ 
+
+Plants with R
+-------------
 
 -   https://fronkonstin.com/2017/07/18/plants/
 
@@ -28,34 +39,62 @@ Rstudio Server Administration
 
 -   http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html
 
+ 
+
+ 
+
 The Coding Train - Fun and Art with Coding
 ------------------------------------------
 
 -   https://www.youtube.com/user/shiffman
 
+ 
+
+ 
+
 The Net Ninja - Youtube Channel
 -------------------------------
 
+ 
+
 -   https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists
+
+ 
+
+ 
 
 Famous Gang of Four Design Patterns explained with Javascript
 -------------------------------------------------------------
+
+ 
 
 For all who find JS much more readable than C++/Java-likes - e.g. me.
 
 -   http://www.dofactory.com/javascript/design-patterns
 
+ 
+
+ 
+
 Disabling Linux Mint Shortcuts
 ------------------------------
+
+ 
 
 (Because they interfere with other shortcuts e.g. from Rstudio)
 
 -   http://granjow.net/mint-cinnamon.html
 
+ 
+
+ 
+
 Introduction to UNIX - "The Unix Workbench"
 -------------------------------------------
 
 -   http://seankross.com/the-unix-workbench/
+
+ 
 
 Git Server
 ----------
