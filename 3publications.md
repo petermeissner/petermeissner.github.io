@@ -78,6 +78,11 @@ Bielefeld September 29 - October 2, 2009 \|
 Presentations
 =============
 
+Meißner (2017): *Creating Crosswords in R with the crossword-Package*. [R Users Hamburg - Meetup 10] \|
+[Youtube](https://www.youtube.com/watch?v=56qrwa4bzK8&index=2&list=PLjH7mHheO68Wyr42jokFVA1jMjNdsHm1g)
+\|
+[SOURCE](https://github.com/petermeissner/crossword/tree/master/presentation/2017_08_01_r_user_hamburg)
+
 Meißner (2016): *Web Data Collection with R -- Course Taster Teaser*. [ECPR
 Winter School of Methods and Techniques 2016] \|
 [PDF](https://github.com/petermeissner/ecprwsmt16adcr/raw/master/course/00%20teaser/twenty_minute_presentation.pdf)
