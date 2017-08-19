@@ -6,6 +6,32 @@ author: peter meißner
 
  
 
+Solve Sudokus with R and PicoSAT
+--------------------------------
+
+ 
+
+-   https://www.dirk-schumacher.net/2017/07/23/solve-sudokus-with-r-and-a-sat-solver/
+
+Recently I wrote a [small
+package](https://github.com/dirkschumacher/rpicosat) to use
+the [PicoSAT](http://fmv.jku.at/picosat/) solver in R. PicoSAT is a C program
+written by [Armin Biere](http://fmv.jku.at/biere/index.html) that can solve the
+so called [SAT
+problem](https://en.wikipedia.org/wiki/Boolean_satisfiability_problem). Given a
+boolean formula, such as `A OR B AND NOT C`, can we set `A`, `B` and `C` to TRUE
+or FALSE such that the formula evaluates to TRUE?
+
+It turns out many problems (such as a Sudoku) can be formulated as a SAT
+problem.
+
+Bindings for PicoSAT exist for [various
+languages](https://github.com/search?utf8=%E2%9C%93&q=picosat&type=) but not for
+R. Also, it seems there is currently no package for solving SAT problems on
+CRAN.
+
+ 
+
 Setting up Shiny Server
 -----------------------
 
