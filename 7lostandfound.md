@@ -6,6 +6,25 @@ author: peter meißner
 
  
 
+How to Run Linux Commands From Outside the Bash Shell on Windows 10
+-------------------------------------------------------------------
+
+Windows 10 includes an underlying “Windows Subsystem for Linux” to run Linux applications, but it’s only accessible via the Bash shell. However, there is a way to run Linux applications without first launching a Bash window.
+
+- https://www.howtogeek.com/262086/how-to-run-linux-commands-from-outside-the-bash-shell-on-windows-10/
+
+
+Example: 
+
+```cmd
+bash -c "ls -lah"
+```
+ 
+
+ 
+
+ 
+
 Solve Sudokus with R and PicoSAT
 --------------------------------
 
