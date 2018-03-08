@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /_layouts
-Disallow: /images
-Disallow: /javascripts
-Disallow: /stylesheets
