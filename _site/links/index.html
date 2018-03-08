@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="author" content="Peter Meissner">
+<meta name="description" content="petermeissner: personal blog, stats, tech, and things between and beyond">
+<title> Links › petermeissner</title>
+<link rel="canonical" href="https://petermeissner.de/links/">
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://petermeissner.de/basic.css" rel="stylesheet">
+<link href="https://petermeissner.de/highlight.css" rel="stylesheet">
+<link href="https://petermeissner.de/index.css" rel="stylesheet">
+<link type="application/atom+xml" rel="alternate" href="/https://petermeissner.de/feed.xml" title="petermeissner" />
+
+
+<header>
+  <h1><a href="https://petermeissner.de">petermeissner</a></h1>
+  <nav>
+    <div><a href="https://petermeissner.de/">Home</a><a href="https://petermeissner.de/about/">About</a><a href="https://petermeissner.de/links/">Links</a><a href="https://petermeissner.de/archive/">Archive</a></div>
+    <div><a href="https://twitter.com/marvin_dpr"><i class="fa fa-twitter"></i></a><a href="https://github.com/petermeissner"><i class="fa fa-github"></i></a><a href="mailto:retep.meissner@gmail.com"><i class="fa fa-envelope"></i></a></div>
+  </nav>
+</header>
+<main>
+  <article>
+    <header>
+      <h1><a href="https://petermeissner.de/links/">Links</a></h1>
+      <time datetime=""></time>
+      <p></p>
+    </header>
+    <div>
+<h2 id="the-recode-project---an-active-archive-of-computer-art">THE RECODE PROJECT - An active archive of computer art.</h2>
+
+<p>http://recodeproject.com/</p>
+
+<h2 id="how-to-run-linux-commands-from-outside-the-bash-shell-on-windows-10">How to Run Linux Commands From Outside the Bash Shell on Windows 10</h2>
+
+<p>Windows 10 includes an underlying “Windows Subsystem for Linux” to run Linux applications, but it’s only accessible via the Bash shell. However, there is a way to run Linux applications without first launching a Bash window.</p>
+
+<ul>
+  <li>https://www.howtogeek.com/262086/how-to-run-linux-commands-from-outside-the-bash-shell-on-windows-10/</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code class="language-cmd">bash -c "ls -lah"
+</code></pre>
+
+<h2 id="solve-sudokus-with-r-and-picosat">Solve Sudokus with R and PicoSAT</h2>
+
+<ul>
+  <li>https://www.dirk-schumacher.net/2017/07/23/solve-sudokus-with-r-and-a-sat-solver/</li>
+</ul>
+
+<p>Recently I wrote a <a href="https://github.com/dirkschumacher/rpicosat">small
+package</a> to use
+the <a href="http://fmv.jku.at/picosat/">PicoSAT</a> solver in R. PicoSAT is a C program
+written by <a href="http://fmv.jku.at/biere/index.html">Armin Biere</a> that can solve the
+so called <a href="https://en.wikipedia.org/wiki/Boolean_satisfiability_problem">SAT
+problem</a>. Given a
+boolean formula, such as <code class="highlighter-rouge">A OR B AND NOT C</code>, can we set <code class="highlighter-rouge">A</code>, <code class="highlighter-rouge">B</code> and <code class="highlighter-rouge">C</code> to TRUE
+or FALSE such that the formula evaluates to TRUE?</p>
+
+<p>It turns out many problems (such as a Sudoku) can be formulated as a SAT
+problem.</p>
+
+<p>Bindings for PicoSAT exist for <a href="https://github.com/search?utf8=%E2%9C%93&amp;q=picosat&amp;type=">various
+languages</a> but not for
+R. Also, it seems there is currently no package for solving SAT problems on
+CRAN.</p>
+
+<h2 id="setting-up-shiny-server">Setting up Shiny Server</h2>
+
+<ul>
+  <li>https://qualityandinnovation.com/2015/12/09/deploying-your-very-own-shiny-server/</li>
+</ul>
+
+<h2 id="plants-with-r">Plants with R</h2>
+
+<ul>
+  <li>
+    <p>https://fronkonstin.com/2017/07/18/plants/</p>
+  </li>
+  <li>
+    <p>https://fronkonstin.com/2017/06/26/a-shiny-app-to-draw-curves-based-on-l-systems/</p>
+  </li>
+</ul>
+
+<h2 id="rstudio-server-administration">Rstudio Server Administration</h2>
+
+<ul>
+  <li>
+    <p>https://www.rstudio.com/products/rstudio/download-server/</p>
+  </li>
+  <li>
+    <p>https://support.rstudio.com/hc/en-us/articles/200532327-Configuring-the-Server</p>
+  </li>
+  <li>
+    <p>https://support.rstudio.com/hc/en-us/articles/200552316-Configuring-the-Server</p>
+  </li>
+  <li>
+    <p>https://support.rstudio.com/hc/en-us/articles/200552326-Configuring-the-Server/</p>
+  </li>
+  <li>
+    <p>http://blog.trackets.com/2014/05/17/ssh-tunnel-local-and-remote-port-forwarding-explained-with-examples.html</p>
+  </li>
+</ul>
+
+<h2 id="the-coding-train---fun-and-art-with-coding">The Coding Train - Fun and Art with Coding</h2>
+
+<ul>
+  <li>https://www.youtube.com/user/shiffman</li>
+</ul>
+
+<h2 id="the-net-ninja---youtube-channel">The Net Ninja - Youtube Channel</h2>
+
+<ul>
+  <li>https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists</li>
+</ul>
+
+<h2 id="famous-gang-of-four-design-patterns-explained-with-javascript">Famous Gang of Four Design Patterns explained with Javascript</h2>
+
+<p>For all who find JS much more readable than C++/Java-likes - e.g. me.</p>
+
+<ul>
+  <li>http://www.dofactory.com/javascript/design-patterns</li>
+</ul>
+
+<h2 id="disabling-linux-mint-shortcuts">Disabling Linux Mint Shortcuts</h2>
+
+<p>(Because they interfere with other shortcuts e.g. from Rstudio)</p>
+
+<ul>
+  <li>http://granjow.net/mint-cinnamon.html</li>
+</ul>
+
+<h2 id="introduction-to-unix---the-unix-workbench">Introduction to UNIX - “The Unix Workbench”</h2>
+
+<ul>
+  <li>http://seankross.com/the-unix-workbench/</li>
+</ul>
+
+<h2 id="git-server">Git Server</h2>
+
+<ul>
+  <li>http://t3n.de/news/git-eigener-git-server-544264/</li>
+</ul>
+
+<h2 id="apache-mod_rewrite">Apache mod_rewrite</h2>
+
+<ul>
+  <li>
+    <p>http://mod-rewrite-cheatsheet.com/</p>
+  </li>
+  <li>
+    <p>https://httpd.apache.org/docs/trunk/rewrite/remapping.html</p>
+  </li>
+  <li>
+    <p>http://www.askapache.com/htaccess/modrewrite-tips-tricks/</p>
+  </li>
+</ul>
+
+<h2 id="api-in-php">API in PHP</h2>
+
+<ul>
+  <li>http://coreymaynard.com/blog/creating-a-restful-api-with-php/</li>
+</ul>
+
+<h2 id="symbolic-links-on-windows">Symbolic Links on Windows</h2>
+
+<ul>
+  <li>https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/</li>
+</ul>
+
+<h2 id="add-git-branch-name-to-bash-prompt">Add git branch name to bash prompt</h2>
+
+<ul>
+  <li>https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt</li>
+</ul>
+
+<h2 id="this-crazy-little-thing-called-scales-d3js-scales">This crazy little thing called scales (D3js scales)</h2>
+
+<p>by <a href="https://twitter.com/jcukier">Jerome Cukier</a></p>
+
+<ul>
+  <li>http://www.jeromecukier.net/blog/2011/08/11/d3-scales-and-color/</li>
+</ul>
+
+<h2 id="shiny-errors-and-validation">Shiny: Errors and Validation</h2>
+
+<ul>
+  <li>http://shiny.rstudio.com/articles/validation.html</li>
+</ul>
+
+<h2 id="developing-htmlwidgets">Developing HTMLwidgets</h2>
+
+<ul>
+  <li>http://www.htmlwidgets.org/develop_intro.html</li>
+</ul>
+
+<h2 id="inline-graphics">Inline graphics</h2>
+
+<ul>
+  <li>https://github.com/htmlwidgets/sparkline</li>
+</ul>
+
+<h2 id="rtravis-multiple-os-testing">R/Travis multiple OS testing</h2>
+
+<ul>
+  <li>https://ropensci.org/blog/2016/07/12/travis-osx</li>
+</ul>
+
+<h2 id="turtle-graphics-with-r">Turtle graphics with R</h2>
+
+<ul>
+  <li>by Thorsten Pohlert :
+https://cran.r-project.org/web/packages/trend/index.html</li>
+</ul>
+
+<h2 id="what-every-programmer-absolutely-positively-needs-to-know-about-encodings-and-character-sets-to-work-with-text">What Every Programmer Absolutely, Positively Needs To Know About Encodings And Character Sets To Work With Text</h2>
+
+<p>by <a href="https://twitter.com/deceze">David C. Zentgraf</a> :
+http://kunststube.net/encoding/</p>
+
+<h2 id="sparkr-social-science">SparkR (social science)</h2>
+
+<p>https://github.com/UrbanInstitute/spark-social-science</p>
+
+<h2 id="r-running-something-within-global-environment-but-with-options-working-directory-">R: Running something within global environment but <em>with</em> options, working directory, …</h2>
+
+<p>https://cran.rstudio.com/web/packages/withr/withr.pdf</p>
+
+<h2 id="adding-rcpp-to-your-roxygen2-ized-r-package-and-making-it-work">Adding Rcpp to your roxygen2-ized R package and making it work</h2>
+
+<p>https://ironholds.org/blog/adding-rcpp-to-an-existing-r-package-documented-with-roxygen2/</p>
+
+<h2 id="working-with-rcpp-stringvector">Working with Rcpp StringVector</h2>
+
+<p>http://gallery.rcpp.org//articles/working-with-Rcpp-StringVector/</p>
+
+<h2 id="openstreetmap-boundaries-export---hurray">OpenStreetMap boundaries export - Hurray!</h2>
+
+<p>https://osm.wno-edv-service.de/boundaries/</p>
+
+<h2 id="rjava">rJava</h2>
+
+<p>https://www.rforge.net/rJava/</p>
+
+<h2 id="five-ways-to-handle-big-data-in-r">Five ways to handle Big Data in R</h2>
+
+<p>by eoda/Oliver Bracht</p>
+
+<p>http://blog.eoda.de/2013/11/27/five-ways-to-handle-big-data-in-r/</p>
+
+<h2 id="r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps">R powered web applications with Shiny (a tutorial and cheat sheet with 40 example apps)</h2>
+
+<p>by <a href="https://twitter.com/zevross?ref_src=twsrc%5Etfw">Zev Ross</a></p>
+
+<p><a href="http://zevross.com/blog/2016/04/19/r-powered-web-applications-with-shiny-a-tutorial-and-cheat-sheet-with-40-example-apps/?utm_content=buffer8271b&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer#style-yourself-with-css">Link</a></p>
+
+<h2 id="the-r---htmlwidgets-framework">The R - HTMLwidgets framework</h2>
+
+<p>-http://www.htmlwidgets.org/develop_intro.html</p>
+
+<h2 id="unicode-character-inspector">Unicode character inspector</h2>
+
+<ul>
+  <li>http://apps.timwhitlock.info/unicode/inspect</li>
+</ul>
+
+<p>by <a href="https://plus.google.com/106703751121449519322">Tim Whitlock</a>
+<a href="http://twitter.com/timwhitlock">@timwhitlock</a></p>
+
+<h2 id="r-prepared-sql-statements--parametrized-sql--r-sql-bulk-insertion">R prepared SQL statements / parametrized SQL / R SQL bulk insertion</h2>
+
+<p>http://www.inside-r.org/packages/cran/RSQLite/docs/dbSendPreparedQuery</p>
+
+<h2 id="r-and-ms-sql">R and MS-SQL</h2>
+
+<h3 id="jen-underwood"><a href="https://twitter.com/idigdata">Jen Underwood</a></h3>
+
+<p>http://www.jenunderwood.com/2015/11/11/r-you-ready-sql-server-2016/</p>
+
+<h2 id="integrating-r-with-web-applications">Integrating R with Web Applications</h2>
+
+<h3 id="jen-underwood-1"><a href="https://twitter.com/idigdata">Jen Underwood</a></h3>
+
+<p>http://www.jenunderwood.com/2015/01/12/part-1-integrating-r/
+http://www.jenunderwood.com/2015/02/23/part-2-r-web-apps/</p>
+
+<h2 id="nodejs--electron--the-how-and-what-of-javascript-desktop-applications">Node.js / Electron / The how and what of JavaScript desktop applications</h2>
+
+<h3 id="kristian-poslek"><a href="https://medium.com/@bojzi">Kristian Poslek</a></h3>
+
+<p>https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658#.gizx0a60s</p>
+
+<h2 id="how-long-to-complete-analytics-academy-course">How long to complete analytics academy course</h2>
+
+<p>https://www.quora.com/How-long-does-it-take-to-complete-the-Analytics-Academy-courses-of-Google</p>
+
+<h2 id="python-for-data-science-learning-plan">Python for data science learning plan</h2>
+
+<p>http://www.datasciencecentral.com/m/blogpost?id=6448529%3ABlogPost%3A415409</p>
+
+<h2 id="ssh-into-github-wont-work-agent-admitted-failure-to-sign-using-the-key">SSH into Github wont work “Agent admitted failure to sign using the key.”</h2>
+
+<p>https://help.github.com/articles/error-agent-admitted-failure-to-sign/</p>
+
+<h2 id="generating-ssh-keys">Generating SSH keys</h2>
+
+<p>https://www.howtoforge.com/linux-basics-how-to-install-ssh-keys-on-the-shell</p>
+
+<h2 id="on-dates-and-times-in-r-naom-the-helpful-ross">On dates and times in R (Naom <em>‘The Helpful’</em> Ross)</h2>
+
+<p>http://www.noamross.net/blog/2014/2/10/using-times-and-dates-in-r—presentation-code.html</p>
+
+<h2 id="data-science-notes-dmitriy-parallel-selivanov-on-r-and-text">Data Science Notes (Dmitriy <em>‘Parallel’</em> Selivanov on R and text)</h2>
+
+<p>http://dsnotes.com/archive.html</p>
+
+<h2 id="github-cheat-sheet">Git(hub) cheat sheet</h2>
+
+<p>https://education.github.com/git-cheat-sheet-education.pdf</p>
+
+<h2 id="recursive-ftp-download-with-r">recursive ftp download with R</h2>
+
+<p>http://stackoverflow.com/q/5227444/1144966</p>
+
+<h2 id="markov-chains--explained-visually-victor-powell">Markov Chains – Explained Visually (Victor Powell)</h2>
+
+<p>http://setosa.io/ev/markov-chains/</p>
+
+<h2 id="xmodmap">xmodmap</h2>
+
+<p>HowTo xmodmap: https://wiki.archlinux.org/index.php/Xmodmap List of XF86… key
+names: http://wiki.linuxquestions.org/wiki/XF86_keyboard_symbols</p>
+
+<h2 id="ropengov">rOpenGov</h2>
+
+<p>R projects concerned with political / government data.</p>
+
+<p>http://ropengov.github.io/projects/</p>
+
+<h2 id="notable-cran-task-views">(notable) CRAN task views</h2>
+
+<ul>
+  <li>
+    <p><a href="https://cran.r-project.org/web/views/SocialSciences.html">Social sciences</a></p>
+
+    <ul>
+      <li>find all those different regression models</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://cran.r-project.org/web/views/WebTechnologies.html">Web
+technologies</a> -
+anything for making and breaking the Web - scraping and parsing of Web
+formats - API access</p>
+  </li>
+  <li>
+    <p><a href="https://cran.r-project.org/web/views/OfficialStatistics.html">Official
+Statistics</a> -
+more sexy than you think - record linkage - seasonal adjustment - weighting</p>
+
+    <ul>
+      <li>small area estimation - imputation</li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://cran.r-project.org/web/views/MachineLearning.html">Machine
+Learning</a></p>
+  </li>
+</ul>
+
+<h2 id="awesome-list-of-awesome-r-stuff">Awesome list of awesome R stuff</h2>
+
+<p>https://github.com/qinwf/awesome-R</p>
+
+<h2 id="nginx-logging">Nginx logging</h2>
+
+<p>https://www.digitalocean.com/community/tutorials/how-to-configure-logging-and-log-rotation-in-nginx-on-an-ubuntu-vps</p>
+
+<h2 id="ip-address-ranges--cidr">IP address ranges / CIDR</h2>
+
+<p>https://www.digitalocean.com/community/tutorials/understanding-ip-addresses-subnets-and-cidr-notation-for-networking
+https://de.wikipedia.org/wiki/Classless_Inter-Domain_Routing</p>
+
+<h2 id="likable-jekyll---themes---that-i-like">Likable Jekyll - Themes - That I like</h2>
+
+<h3 id="mark-otto-mdo-">Mark Otto (<a href="https://github.com/mdo">mdo</a>) :</h3>
+
+<h3 id="gerald-bauer-geraldb-">Gerald Bauer (<a href="https://github.com/geraldb">geraldb</a>) :</h3>
+
+<h3 id="pinocchio-smallmuou-">Pinocchio (<a href="https://github.com/smallmuou">smallmuou</a>) :</h3>
+
+<h3 id="motaquillah-maddane-kronik3r">Motaquillah Maddane (<a href="https://github.com/kronik3r">kronik3r</a>):</h3>
+
+<h3 id="steve-smith-orderedlist">Steve Smith (<a href="https://github.com/orderedlist">orderedlist</a>):</h3>
+
+<h2 id="wilson-et-al-2014-best-practices-for-scientific-computing-plos-biol-121-e1001745">Wilson et al. (2014): <em>Best Practices for Scientific Computing</em>. PLoS Biol 12(1): e1001745.</h2>
+
+<blockquote>
+  <p>Scientists spend an increasing amount of time building and using software.
+  However, most scientists are never taught how to do this efficiently. As a
+  result, many are unaware of tools and practices that would allow them to
+  write more reliable and maintainable code with less effort. We describe a
+  set of best practices for scientific software development that have solid
+  foundations in research and experience, and that improve scientists’
+  productivity and the reliability of their software.
+  […]<a href="http://www.plosbiology.org/article/fetchObject.action?uri=info:doi/10.1371/journal.pbio.1001745&amp;representation=PDF">PDF</a>
+  <a href="doi:10.1371/journal.pbio.1001745">DOI</a></p>
+</blockquote>
+
+<h2 id="danilo-freire-2015-12-08-peering-at-open-peer-review-the-political-methodologist">Danilo Freire (2015-12-08) <em>Peering at Open Peer Review</em>. The Political Methodologist</h2>
+
+<blockquote>
+  <p>Peer review is an essential part of the modern scientific process. Sending
+  manuscripts for others to scrutinize is such a widespread practice in
+  academia that its importance cannot be overstated. Since the late eighteenth
+  century, when the Philosophical Transactions of the Royal Society pioneered
+  editorial review,1 virtually every scholarly outlet has adopted some sort of
+  pre-publication assessment of received works. Although the specifics may
+  vary, the procedure has remained largely the same since its inception:
+  submit, receive anonymous criticism, revise, restart the process if
+  required. A recent survey of APSA members indicates that political
+  scientists overwhelmingly believe in the value of peer review (95%) and the
+  vast majority of them (80%) think peer review is a useful tool to keep
+  themselves up to date with cutting-edge research (Djupe 2015, 349). But do
+  these figures suggest that journal editors can rest upon their laurels and
+  leave the system as it is?
+  […]<a href="http://thepoliticalmethodologist.com/2015/12/08/peering-at-open-peer-review/">LINK</a></p>
+</blockquote>
+
+<h2 id="checking-for-non-ascii-characters-in-r">Checking for non-ASCII characters in R</h2>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">tools</span><span class="o">::</span><span class="n">showNonASCII</span><span class="p">(</span><span class="n">readLines</span><span class="p">(</span><span class="s2">"filename.txt"</span><span class="p">))</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="no-energy-saving-for-wlan-on-pi">No Energy Saving for WLAN on Pi</h2>
+
+<p>https://www.datenreise.de/raspberry-pi-wlan-einrichten-edimax/</p>
+
+<h2 id="rs-source-code-on-github-search-able">R’s source code on Github (search-able)</h2>
+
+<p>https://github.com/wch/r-source</p>
+
+<h2 id="searching-through-the-source-code-of-all-packages-on-cran">Searching through the source code of ALL packages on CRAN</h2>
+
+<p>https://github.com/search?utf8=%E2%9C%93&amp;q=user%3Acran&amp;type=Code&amp;ref=searchresults</p>
+
+<h2 id="getting-rs-source-code">Getting R’s Source Code</h2>
+
+<p>https://cran.r-project.org/sources.html</p>
+
+<h2 id="rmarkdown-alter-action-depending-on-document">rmarkdown: Alter Action Depending on Document</h2>
+
+<p>https://trinkerrstuff.wordpress.com/2014/11/18/rmarkdown-alter-action-depending-on-document/</p>
+
+<h2 id="listen-wikipedia-by-hatnote">Listen Wikipedia by Hatnote</h2>
+
+<p>Changes to Wikipedia as sound - tune in and chill out …</p>
+
+<p><a href="http://listen.hatnote.com/#en">http://listen.hatnote.com</a></p>
+
+<h2 id="administrative-boundaries-datasets-shape-r-exri-kmz--">Administrative Boundaries Datasets (shape, R, EXRI, kmz, … )</h2>
+
+<p><a href="http://gadm.org/about">Global Administrative Areas - Boundaries without limits</a></p>
+
+<h2 id="linux-pandoc-for-images--convert-jpg-to-pdf">Linux pandoc for images / convert jpg to pdf</h2>
+
+<p>http://www.imagemagick.org/script/convert.php</p>
+
+<p><em>install:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get imagemagick
+</code></pre></div></div>
+
+<p><em>jpg to small grey scale pdf</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>convert <span class="nt">-density</span> 300x300 <span class="nt">-quality</span> 2 <span class="nt">-compress</span> jpeg <span class="nt">-colorspace</span> Gray <span class="nt">-colors</span> 64 input1.jpg input2.jpg output.pdf
+</code></pre></div></div>
+
+<h2 id="saving-raspi-image">saving RasPi image</h2>
+
+<p>https://linuxundich.de/raspberry-pi/linux-images-fuer-den-raspberry-pi-auf-sd-karte-installieren/</p>
+
+<h2 id="autohotkey-for-linux">AutoHotKey for Linux</h2>
+
+<ul>
+  <li>
+    <p>autokey source: https://github.com/guoci/autokey-py3</p>
+  </li>
+  <li>
+    <p>scripting API:
+http://autokey.googlecode.com/svn/trunk/doc/scripting/index.html</p>
+  </li>
+  <li>
+    <p>example scripts: https://code.google.com/p/autokey/wiki/ContributedScripts</p>
+  </li>
+</ul>
+
+<p><em>install:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get autokey-qt
+</code></pre></div></div>
+
+<p><em>“push marked text from Gedit to terminal”-autokey-script:</em></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># autokey/python script for pushing text from Gedit to terminal</span>
+<span class="n">window</span><span class="o">.</span><span class="n">activate</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s">":ACTIVE:"</span><span class="p">)</span>
+
+<span class="c"># get class and title of current window, save clipboard</span>
+<span class="n">var1</span>    <span class="o">=</span> <span class="n">window</span><span class="o">.</span><span class="n">get_active_class</span><span class="p">()</span>
+<span class="n">title1</span>  <span class="o">=</span> <span class="n">window</span><span class="o">.</span><span class="n">get_active_title</span><span class="p">()</span>
+<span class="n">oldtext</span> <span class="o">=</span> <span class="n">clipboard</span><span class="o">.</span><span class="n">get_clipboard</span><span class="p">()</span>
+<span class="n">text</span> <span class="o">=</span><span class="s">""</span>
+
+<span class="c"># only execute script from Gedit</span>
+<span class="k">if</span> <span class="n">var1</span> <span class="o">==</span> <span class="s">"gedit.Gedit"</span> <span class="p">:</span> 
+    <span class="n">var2</span>    <span class="o">=</span> <span class="n">window</span><span class="o">.</span><span class="n">get_active_title</span><span class="p">()</span>
+    <span class="n">text</span>    <span class="o">=</span> <span class="n">clipboard</span><span class="o">.</span><span class="n">get_selection</span><span class="p">()</span>
+    <span class="n">window</span><span class="o">.</span><span class="n">activate</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s">"Terminal"</span><span class="p">)</span> 
+    
+    <span class="c"># paste to terminal</span>
+    <span class="k">if</span> <span class="n">var2</span> <span class="o">==</span> <span class="s">"Terminal"</span> <span class="p">:</span> 
+        <span class="n">keyboard</span><span class="o">.</span><span class="n">send_keys</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+        <span class="n">keyboard</span><span class="o">.</span><span class="n">send_keys</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">)</span>
+
+    <span class="c"># go back to Gedit</span>
+    <span class="n">window</span><span class="o">.</span><span class="n">activate</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="n">title1</span><span class="p">)</span>
+
+<span class="c"># restore clipboard</span>
+<span class="n">clipboard</span><span class="o">.</span><span class="n">fill_clipboard</span><span class="p">(</span><span class="n">oldtext</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="adding-cran-mirror-to-repository-list-on-linux-ubuntu--mint">Adding CRAN mirror to repository list on Linux Ubuntu / Mint</h2>
+
+<p>https://cran.r-project.org/bin/linux/ubuntu/README.html</p>
+
+<h2 id="a-collection-of-text-files-on-politics">A collection of text files on politics</h2>
+
+<p>http://www.textfiles.com/politics/</p>
+
+<h2 id="a-cc-licensed-book-on-string-manipulations-in-r---gaston-sanchez">A CC licensed book on string manipulations in R - Gaston Sanchez</h2>
+
+<p>http://gastonsanchez.com/Handling_and_Processing_Strings_in_R.pdf</p>
+
+<h2 id="no-github-passwords-any-more">No Github passwords any more!</h2>
+
+<p>http://www.tilcode.com/push-github-without-entering-username-password-windows-git-bash/</p>
+
+<h2 id="usrbinrscript-not-working">#!/usr/bin/Rscript not working</h2>
+
+<p>http://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter</p>
+
+<h2 id="adding-mime-type-to-linux--buntu-and-changing-icon">adding mime type to Linux / *buntu and changing icon</h2>
+
+<p>http://askubuntu.com/a/56725/183446</p>
+
+<h2 id="pushing-to-github-without-username--password-input">pushing to Github without username / password input</h2>
+
+<p>http://stackoverflow.com/questions/8588768/git-push-username-password-how-to-avoid</p>
+
+<h2 id="dinosaur-data-and-pictures">dinosaur data and pictures</h2>
+
+<p>http://www.nhm.ac.uk/discover/dino-directory/name/a/gallery.html</p>
+
+    </div>
+    
+    
+  </article>
+</main>
+
+

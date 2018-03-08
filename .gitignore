@@ -1,4 +1,4 @@
-*.log
-copy_to_ftp
 .Rproj.user
 .Rhistory
+.RData
+.Ruserdata
